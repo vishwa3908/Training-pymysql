@@ -7,12 +7,7 @@ class Subcategory:
 
     def show_subcategory(sub):
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             mycursor.execute("SELECT * FROM {}".format(sub.capitalize()))
             result = mycursor.fetchall()
@@ -31,12 +26,8 @@ class Subcategory:
 
     def add_subcategory():
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
+        
             mycursor = conn.cursor()
             category_name = request.json["category"].capitalize()
             check_category_value = (category_name,)
@@ -56,12 +47,7 @@ class Subcategory:
 
     def delete_this_subcategory():
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             sub_category = request.json["sub-category"].capitalize()
             category = request.json["category"].capitalize()

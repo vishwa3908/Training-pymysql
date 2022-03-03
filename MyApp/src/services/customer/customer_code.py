@@ -8,12 +8,7 @@ class Customer:
 
     def customer_cart(name):
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             mycursor.execute("SELECT * FROM {}".format(name.capitalize()))
             result = mycursor.fetchall()
@@ -33,12 +28,7 @@ class Customer:
             return "404 Error"
     
     def customer_details():
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         mycursor.execute("SELECT * FROM customers")
         result = mycursor.fetchall()
@@ -53,12 +43,7 @@ class Customer:
     
     def add_customer_cart():
         
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         name = request.json["name"].capitalize()
         password = request.json["password"]
@@ -113,12 +98,7 @@ class Customer:
     
     def remove_cart():
         
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         name = request.json["name"].capitalize()
         password= request.json["password"]

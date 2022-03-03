@@ -19,12 +19,7 @@ class Login:
 
     def old_customer_login():
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             name = request.json["name"].capitalize()
             password = request.json["password"]
@@ -42,12 +37,7 @@ class Login:
 
     def new_customer():
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             name = request.json["name"].capitalize()
             CustomerCart.create_cart(name)
@@ -62,12 +52,7 @@ class Login:
     
     def delete_my_account():
         try:
-            conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+            conn = connect_mysql()
             mycursor = conn.cursor()
             name = request.json["name"].capitalize()
             password = request.json["password"]

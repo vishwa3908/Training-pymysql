@@ -8,3 +8,4 @@ def connect_mysql():
             database='shopping'
         )
     mycursor = conn.cursor()
+    return conn

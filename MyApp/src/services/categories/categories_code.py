@@ -6,12 +6,7 @@ from src.Config.connection import connect_mysql
 class Categories:
 
     def show_categories():
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         mycursor.execute("SELECT * FROM category")
         result = mycursor.fetchall()
@@ -25,12 +20,7 @@ class Categories:
             return jsonify("Empty")
     
     def add_category():
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         admin = request.json['admin']
         password = request.json['password']
@@ -44,13 +34,7 @@ class Categories:
             return "{} Category added".format(category_name)
     
     def deletecategory():
-        
-        conn = pymysql.connect(
-            host='localhost',
-            user='vishwa',
-            password='Password.123',
-            database='shopping'
-        )
+        conn = connect_mysql()
         mycursor = conn.cursor()
         admin = request.json['admin']
         password = request.json['password']

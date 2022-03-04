@@ -28,8 +28,8 @@ class Login:
             mycursor.execute(query,value)
             result = mycursor.fetchall()
             if result:
-                data = {"Name":result[0][0],"Age":result[0][1],"Gender":result[0][2]}
-                return jsonify(data)
+                data = {"Name":result[0][1],"Age":result[0][2],"Gender":result[0][3]}
+                return data
             else:
                 return "No record found"
         else:

@@ -1,4 +1,4 @@
-from flask import Flask,request
+from flask import Flask,request,jsonify
 import pymysql
 from Config.connection import connect_mysql
 
@@ -21,7 +21,7 @@ class Customer:
                 'Price':result[i][3],
                 "Total Price":result[i][4]}
                 sub_category.append(data)
-            return {"{}".format(name):sub_category}
+            return jsonify(sub_category)
         else:
             return "Nothing on Cart"
 

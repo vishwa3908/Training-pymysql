@@ -1,4 +1,4 @@
-from flask import Flask,request
+from flask import Flask,request,jsonify
 import pymysql
 from Config.connection import connect_mysql
 
@@ -17,8 +17,8 @@ class Subcategory:
                     'Item':result[i][1],
                     'Price':"Rs"+" " + str(result[i][2])}
                     sub_category.append(data)
-                result_data = {"{}".format(sub.capitalize()):sub_category}
-                return result_data
+                result_data = sub_category
+                return jsonify(result_data)
             else:
                 return "Empty"
 

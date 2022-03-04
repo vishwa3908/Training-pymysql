@@ -1,5 +1,5 @@
 from flask import Blueprint
-from src.services.subcategory.subcategorycode import Subcategory
+from services.subcategory.subcategorycode import Subcategory
 
 mysubcategory = Blueprint("mysubcategory",__name__)
 

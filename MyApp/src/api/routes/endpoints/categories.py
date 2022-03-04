@@ -1,6 +1,6 @@
 from flask import Blueprint
 
-from src.services.categories.categories_code import Categories
+from services.categories.categories_code import Categories
 
 mycategories = Blueprint("mycategories",__name__)
 

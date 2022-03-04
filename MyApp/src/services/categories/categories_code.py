@@ -1,6 +1,6 @@
 from flask import request,jsonify
 import pymysql
-from src.Config.connection import connect_mysql
+from Config.connection import connect_mysql
 
 
 class Categories:
@@ -32,6 +32,8 @@ class Categories:
             mycursor.execute('''CREATE TABLE IF NOT EXISTS {}(ID INT AUTO_INCREMENT PRIMARY KEY,ITEMS VARCHAR(20),PRICE INT )'''.format(category_name))
             conn.commit()
             return "{} Category added".format(category_name)
+        else:
+            return "invalid details"
     
     def deletecategory():
         conn = connect_mysql()

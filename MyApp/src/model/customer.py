@@ -1,6 +1,6 @@
 from flask import Flask
 import pymysql
-from src.Config.connection import connect_mysql
+from Config.connection import connect_mysql
 
 class Customer:
 

@@ -1,5 +1,5 @@
 from flask import Blueprint
-from src.services.customer.customer_code import Customer
+from services.customer.customer_code import Customer
 
 mycustomer = Blueprint("mycustomer",__name__)
 

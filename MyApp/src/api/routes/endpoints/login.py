@@ -1,5 +1,5 @@
 from flask import Blueprint
-from src.services.login.customer_entry import Login
+from services.login.customer_entry import Login
 
 log_in = Blueprint("log_in",__name__)
 

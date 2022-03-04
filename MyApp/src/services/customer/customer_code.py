@@ -1,31 +1,30 @@
 from flask import Flask,request
 import pymysql
-from src.Config.connection import connect_mysql
+from Config.connection import connect_mysql
 
 
 
 class Customer:
 
     def customer_cart(name):
-        try:
-            conn = connect_mysql()
-            mycursor = conn.cursor()
-            mycursor.execute("SELECT * FROM {}".format(name.capitalize()))
-            result = mycursor.fetchall()
-            if result:
-                sub_category = []
-                for i in range(len(result)):
-                    data = {"Item-Type":result[i][0],
-                    'Item':result[i][1],
-                    "Quantity":result[i][2],
-                    'Price':result[i][3],
-                    "Total Price":result[i][4]}
-                    sub_category.append(data)
-                return {"{}".format(name):sub_category}
-            else:
-                return "Nothing on Cart"
-        except:
-            return "404 Error"
+    
+        conn = connect_mysql()
+        mycursor = conn.cursor()
+        mycursor.execute("SELECT * FROM {}".format(name.capitalize()))
+        result = mycursor.fetchall()
+        if result:
+            sub_category = []
+            for i in range(len(result)):
+                data = {"Item-Type":result[i][0],
+                'Item':result[i][1],
+                "Quantity":result[i][2],
+                'Price':result[i][3],
+                "Total Price":result[i][4]}
+                sub_category.append(data)
+            return {"{}".format(name):sub_category}
+        else:
+            return "Nothing on Cart"
+
     
     def customer_details():
         conn = connect_mysql()
@@ -34,9 +33,11 @@ class Customer:
         result = mycursor.fetchall()
         customer_result = []
         for  i in range(len(result)):
-            data = {'Name':result[i][0],
-            'Age':result[i][1],
-            'Gender':result[i][2]}
+            data = {
+                "Id":result[i][0],
+                'Name':result[i][1],
+            'Age':result[i][2],
+            'Gender':result[i][3]}
             customer_result.append(data)
         return {"Customer Records":customer_result}
 
@@ -123,7 +124,8 @@ class Customer:
                 mycursor.execute(quantity_check_query,quantity_check_value)
                 quantity_check_result = mycursor.fetchall()
                 # if 1
-                if quantity_check_result[0][0]:
+                if quantity_check_result[0][0]==1:
+                    
                     delete_cart_value = (item,)
                     delete_cart_query = '''DELETE FROM {} WHERE ITEM = %s'''.format(name)
                     mycursor.execute(delete_cart_query,delete_cart_value)

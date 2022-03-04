@@ -31,15 +31,18 @@ class Customer:
         mycursor = conn.cursor()
         mycursor.execute("SELECT * FROM customers")
         result = mycursor.fetchall()
-        customer_result = []
-        for  i in range(len(result)):
-            data = {
-                "Id":result[i][0],
-                'Name':result[i][1],
-            'Age':result[i][2],
-            'Gender':result[i][3]}
-            customer_result.append(data)
-        return {"Customer Records":customer_result}
+        if result:
+            customer_result = []
+            for  i in range(len(result)):
+                data = {
+                    "Id":result[i][0],
+                    'Name':result[i][1],
+                'Age':result[i][2],
+                'Gender':result[i][3]}
+                customer_result.append(data)
+            return jsonify(customer_result)
+        else:
+            return "No customers"
 
     
     def add_customer_cart():

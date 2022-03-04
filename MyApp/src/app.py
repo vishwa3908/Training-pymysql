@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,jsonify
 import pymysql
 from api.routes.endpoints.customer import mycustomer
 from api.routes.endpoints.login import log_in
@@ -30,6 +30,6 @@ def home():
     Category.create_category()
     Customer.create_custome_table()
 
-    return "WELCOME TO SHOPPING "
+    return jsonify("WELCOME TO SHOPPING BUDDY")
 if __name__=="__main__":
     myapp.run(debug=True,host="0.0.0.0")

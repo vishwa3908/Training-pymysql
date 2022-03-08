@@ -1,5 +1,4 @@
 
-from urllib import response
 from app import myapp
 
 

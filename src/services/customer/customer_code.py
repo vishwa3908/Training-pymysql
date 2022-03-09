@@ -21,9 +21,9 @@ class Customer:
                 'Price':result[i][3],
                 "Total Price":result[i][4]}
                 sub_category.append(data)
-            return jsonify(sub_category)
+            return jsonify(sub_category),200
         else:
-            return "Nothing on Cart"
+            return jsonify("Nothing on Cart"),200
 
     
     def customer_details():
@@ -40,9 +40,9 @@ class Customer:
                 'Age':result[i][2],
                 'Gender':result[i][3]}
                 customer_result.append(data)
-            return jsonify(customer_result)
+            return jsonify(customer_result),200
         else:
-            return "No customers"
+            return jsonify("No customers"),404
 
     
     def add_customer_cart():
@@ -86,7 +86,7 @@ class Customer:
                 mycursor.execute(updating_total_column_query,updating_column_value)
                 
                 conn.commit()
-                return "item added"
+                return jsonify("item added"),201
             # IF NOT IN CART THEN ADDING ITEM 
             else:
                 item_check_value = (item,)
@@ -95,10 +95,10 @@ class Customer:
                 item_check_result = mycursor.fetchall()
                 mycursor.execute("INSERT INTO {}(ITEM_TYPE,ITEM,PRICE,TOTAL)VALUES(%s,%s,%s,%s)".format(name),(item_type,item,item_check_result[0][0],item_check_result[0][0]))
                 conn.commit()
-                return "Item added in cart"
+                return jsonify("Item added in cart"),201
             
         else:
-            return "Wrong Customer Data"
+            return jsonify("Wrong Customer Data"),404
     
     def remove_cart():
         
@@ -133,7 +133,7 @@ class Customer:
                     delete_cart_query = '''DELETE FROM {} WHERE ITEM = %s'''.format(name)
                     mycursor.execute(delete_cart_query,delete_cart_value)
                     conn.commit()
-                    return "{} Deleted".format(item)
+                    return jsonify("{} Deleted".format(item)),204
                 # if not 1
                 else:
                     # subtracting 1 from quantity
@@ -145,15 +145,15 @@ class Customer:
                     updating_total_query = '''UPDATE {} SET TOTAL = PRICE*QUANTITY WHERE ITEM = %s'''.format(name)
                     mycursor.execute(updating_total_query,update_quantity_value)
                     conn.commit()
-                    return "item removed"
+                    return jsonify("item removed"),204
                 
                 
                 
                 
                 
             else:
-                return "Wrong item details"
+                return jsonify("Wrong item details"),404
 
         else:
-            return "Wrong item record"
+            return jsonify("Wrong item record"),404
             

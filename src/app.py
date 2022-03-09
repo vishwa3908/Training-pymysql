@@ -32,4 +32,4 @@ def home():
 
     return jsonify("WELCOME TO SHOPPING BUDDY")
 if __name__=="__main__":
-    myapp.run(debug=True,host="0.0.0.0")
+    myapp.run(debug=True)

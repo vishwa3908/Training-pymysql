@@ -51,3 +51,1527 @@
  - - [08/Mar/2022:16:09:23 +0530] "GET /records/SAMUEL HTTP/1.0" 200 15 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0"
  - - [08/Mar/2022:16:09:34 +0530] "GET /records/ HTTP/1.0" 404 232 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0"
  - - [08/Mar/2022:16:09:41 +0530] "GET /records HTTP/1.0" 200 50 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:97.0) Gecko/20100101 Firefox/97.0"
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:9987)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10060)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10061)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10063)
+[2022-03-09 00:02:20 +0530] [9987] [INFO] Worker exiting (pid: 9987)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10064)
+[2022-03-09 00:02:20 +0530] [10060] [INFO] Worker exiting (pid: 10060)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10065)
+[2022-03-09 00:02:20 +0530] [10061] [INFO] Worker exiting (pid: 10061)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10068)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10069)
+[2022-03-09 00:02:20 +0530] [9153] [CRITICAL] WORKER TIMEOUT (pid:10070)
+[2022-03-09 00:02:20 +0530] [10070] [INFO] Worker exiting (pid: 10070)
+[2022-03-09 00:02:20 +0530] [10068] [INFO] Worker exiting (pid: 10068)
+[2022-03-09 00:02:20 +0530] [10063] [INFO] Worker exiting (pid: 10063)
+[2022-03-09 00:02:20 +0530] [10064] [INFO] Worker exiting (pid: 10064)
+[2022-03-09 00:02:20 +0530] [10065] [INFO] Worker exiting (pid: 10065)
+[2022-03-09 00:02:20 +0530] [10069] [INFO] Worker exiting (pid: 10069)
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10060 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10063 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10068 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 9987 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10064 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10070 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10065 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [21065] [INFO] Booting worker with pid: 21065
+[2022-03-09 00:02:20 +0530] [9153] [WARNING] Worker with pid 10061 was terminated due to signal 9
+[2022-03-09 00:02:20 +0530] [21066] [INFO] Booting worker with pid: 21066
+[2022-03-09 00:02:20 +0530] [21067] [INFO] Booting worker with pid: 21067
+[2022-03-09 00:02:20 +0530] [21069] [INFO] Booting worker with pid: 21069
+[2022-03-09 00:02:20 +0530] [21070] [INFO] Booting worker with pid: 21070
+[2022-03-09 00:02:20 +0530] [21071] [INFO] Booting worker with pid: 21071
+[2022-03-09 00:02:20 +0530] [21073] [INFO] Booting worker with pid: 21073
+[2022-03-09 00:02:21 +0530] [21076] [INFO] Booting worker with pid: 21076
+[2022-03-09 00:02:21 +0530] [21077] [INFO] Booting worker with pid: 21077
+[2022-03-09 00:04:44 +0530] [21065] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:44 +0530] [21065] [INFO] Worker exiting (pid: 21065)
+[2022-03-09 00:04:44 +0530] [21423] [INFO] Booting worker with pid: 21423
+[2022-03-09 00:04:44 +0530] [21066] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:44 +0530] [21066] [INFO] Worker exiting (pid: 21066)
+[2022-03-09 00:04:44 +0530] [21067] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:44 +0530] [21067] [INFO] Worker exiting (pid: 21067)
+[2022-03-09 00:04:45 +0530] [21429] [INFO] Booting worker with pid: 21429
+[2022-03-09 00:04:45 +0530] [21070] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21070] [INFO] Worker exiting (pid: 21070)
+[2022-03-09 00:04:45 +0530] [21430] [INFO] Booting worker with pid: 21430
+[2022-03-09 00:04:45 +0530] [21069] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21069] [INFO] Worker exiting (pid: 21069)
+[2022-03-09 00:04:45 +0530] [21431] [INFO] Booting worker with pid: 21431
+[2022-03-09 00:04:45 +0530] [21071] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21073] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21073] [INFO] Worker exiting (pid: 21073)
+[2022-03-09 00:04:45 +0530] [21071] [INFO] Worker exiting (pid: 21071)
+[2022-03-09 00:04:45 +0530] [21077] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21076] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 00:04:45 +0530] [21077] [INFO] Worker exiting (pid: 21077)
+[2022-03-09 00:04:45 +0530] [21076] [INFO] Worker exiting (pid: 21076)
+[2022-03-09 00:04:45 +0530] [21432] [INFO] Booting worker with pid: 21432
+[2022-03-09 00:04:45 +0530] [21434] [INFO] Booting worker with pid: 21434
+[2022-03-09 00:04:45 +0530] [21435] [INFO] Booting worker with pid: 21435
+[2022-03-09 00:04:45 +0530] [21437] [INFO] Booting worker with pid: 21437
+[2022-03-09 00:04:45 +0530] [21439] [INFO] Booting worker with pid: 21439
+[2022-03-09 00:08:04 +0530] [21429] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21429] [INFO] Worker exiting (pid: 21429)
+[2022-03-09 00:08:04 +0530] [21820] [INFO] Booting worker with pid: 21820
+[2022-03-09 00:08:04 +0530] [21431] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21431] [INFO] Worker exiting (pid: 21431)
+[2022-03-09 00:08:04 +0530] [21432] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21432] [INFO] Worker exiting (pid: 21432)
+[2022-03-09 00:08:04 +0530] [21430] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21430] [INFO] Worker exiting (pid: 21430)
+[2022-03-09 00:08:04 +0530] [21824] [INFO] Booting worker with pid: 21824
+[2022-03-09 00:08:04 +0530] [21826] [INFO] Booting worker with pid: 21826
+[2022-03-09 00:08:04 +0530] [21434] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21434] [INFO] Worker exiting (pid: 21434)
+[2022-03-09 00:08:04 +0530] [21435] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21435] [INFO] Worker exiting (pid: 21435)
+[2022-03-09 00:08:04 +0530] [21437] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21437] [INFO] Worker exiting (pid: 21437)
+[2022-03-09 00:08:04 +0530] [21439] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:04 +0530] [21439] [INFO] Worker exiting (pid: 21439)
+[2022-03-09 00:08:04 +0530] [21827] [INFO] Booting worker with pid: 21827
+[2022-03-09 00:08:05 +0530] [21828] [INFO] Booting worker with pid: 21828
+[2022-03-09 00:08:05 +0530] [21423] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 00:08:05 +0530] [21423] [INFO] Worker exiting (pid: 21423)
+[2022-03-09 00:08:05 +0530] [21829] [INFO] Booting worker with pid: 21829
+[2022-03-09 00:08:05 +0530] [21830] [INFO] Booting worker with pid: 21830
+[2022-03-09 00:08:05 +0530] [21831] [INFO] Booting worker with pid: 21831
+[2022-03-09 00:08:05 +0530] [21833] [INFO] Booting worker with pid: 21833
+[2022-03-09 00:09:07 +0530] [21831] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:07 +0530] [21831] [INFO] Worker exiting (pid: 21831)
+[2022-03-09 00:09:07 +0530] [21828] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:07 +0530] [21828] [INFO] Worker exiting (pid: 21828)
+[2022-03-09 00:09:08 +0530] [21830] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21833] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21830] [INFO] Worker exiting (pid: 21830)
+[2022-03-09 00:09:08 +0530] [21833] [INFO] Worker exiting (pid: 21833)
+[2022-03-09 00:09:08 +0530] [21820] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21820] [INFO] Worker exiting (pid: 21820)
+[2022-03-09 00:09:08 +0530] [21884] [INFO] Booting worker with pid: 21884
+[2022-03-09 00:09:08 +0530] [21885] [INFO] Booting worker with pid: 21885
+[2022-03-09 00:09:08 +0530] [21886] [INFO] Booting worker with pid: 21886
+[2022-03-09 00:09:08 +0530] [21887] [INFO] Booting worker with pid: 21887
+[2022-03-09 00:09:08 +0530] [21889] [INFO] Booting worker with pid: 21889
+[2022-03-09 00:09:08 +0530] [21826] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21826] [INFO] Worker exiting (pid: 21826)
+[2022-03-09 00:09:08 +0530] [21824] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21824] [INFO] Worker exiting (pid: 21824)
+[2022-03-09 00:09:08 +0530] [21897] [INFO] Booting worker with pid: 21897
+[2022-03-09 00:09:08 +0530] [21827] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21827] [INFO] Worker exiting (pid: 21827)
+[2022-03-09 00:09:08 +0530] [21898] [INFO] Booting worker with pid: 21898
+[2022-03-09 00:09:08 +0530] [21899] [INFO] Booting worker with pid: 21899
+[2022-03-09 00:09:08 +0530] [21829] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 00:09:08 +0530] [21829] [INFO] Worker exiting (pid: 21829)
+[2022-03-09 00:09:08 +0530] [21901] [INFO] Booting worker with pid: 21901
+[2022-03-09 00:33:39 +0530] [21885] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:39 +0530] [21885] [INFO] Worker exiting (pid: 21885)
+[2022-03-09 00:33:40 +0530] [24083] [INFO] Booting worker with pid: 24083
+[2022-03-09 00:33:40 +0530] [21886] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21899] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21899] [INFO] Worker exiting (pid: 21899)
+[2022-03-09 00:33:40 +0530] [21886] [INFO] Worker exiting (pid: 21886)
+[2022-03-09 00:33:40 +0530] [24088] [INFO] Booting worker with pid: 24088
+[2022-03-09 00:33:40 +0530] [24089] [INFO] Booting worker with pid: 24089
+[2022-03-09 00:33:40 +0530] [21887] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21887] [INFO] Worker exiting (pid: 21887)
+[2022-03-09 00:33:40 +0530] [21889] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21889] [INFO] Worker exiting (pid: 21889)
+[2022-03-09 00:33:40 +0530] [24091] [INFO] Booting worker with pid: 24091
+[2022-03-09 00:33:40 +0530] [24093] [INFO] Booting worker with pid: 24093
+[2022-03-09 00:33:40 +0530] [21901] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21901] [INFO] Worker exiting (pid: 21901)
+[2022-03-09 00:33:40 +0530] [21897] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21897] [INFO] Worker exiting (pid: 21897)
+[2022-03-09 00:33:40 +0530] [24096] [INFO] Booting worker with pid: 24096
+[2022-03-09 00:33:40 +0530] [21898] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21898] [INFO] Worker exiting (pid: 21898)
+[2022-03-09 00:33:40 +0530] [21884] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:33:40 +0530] [21884] [INFO] Worker exiting (pid: 21884)
+[2022-03-09 00:33:40 +0530] [24097] [INFO] Booting worker with pid: 24097
+[2022-03-09 00:33:40 +0530] [24099] [INFO] Booting worker with pid: 24099
+[2022-03-09 00:33:40 +0530] [24100] [INFO] Booting worker with pid: 24100
+[2022-03-09 00:36:07 +0530] [24093] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:07 +0530] [24093] [INFO] Worker exiting (pid: 24093)
+[2022-03-09 00:36:07 +0530] [24521] [INFO] Booting worker with pid: 24521
+[2022-03-09 00:36:07 +0530] [24096] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:07 +0530] [24096] [INFO] Worker exiting (pid: 24096)
+[2022-03-09 00:36:07 +0530] [24523] [INFO] Booting worker with pid: 24523
+[2022-03-09 00:36:07 +0530] [24083] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:07 +0530] [24083] [INFO] Worker exiting (pid: 24083)
+[2022-03-09 00:36:08 +0530] [24526] [INFO] Booting worker with pid: 24526
+[2022-03-09 00:36:08 +0530] [24100] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24100] [INFO] Worker exiting (pid: 24100)
+[2022-03-09 00:36:08 +0530] [24099] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24099] [INFO] Worker exiting (pid: 24099)
+[2022-03-09 00:36:08 +0530] [24097] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24097] [INFO] Worker exiting (pid: 24097)
+[2022-03-09 00:36:08 +0530] [24528] [INFO] Booting worker with pid: 24528
+[2022-03-09 00:36:08 +0530] [24530] [INFO] Booting worker with pid: 24530
+[2022-03-09 00:36:08 +0530] [24531] [INFO] Booting worker with pid: 24531
+[2022-03-09 00:36:08 +0530] [24088] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24088] [INFO] Worker exiting (pid: 24088)
+[2022-03-09 00:36:08 +0530] [24533] [INFO] Booting worker with pid: 24533
+[2022-03-09 00:36:08 +0530] [24091] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24091] [INFO] Worker exiting (pid: 24091)
+[2022-03-09 00:36:08 +0530] [24089] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:36:08 +0530] [24089] [INFO] Worker exiting (pid: 24089)
+[2022-03-09 00:36:08 +0530] [24537] [INFO] Booting worker with pid: 24537
+[2022-03-09 00:36:08 +0530] [24539] [INFO] Booting worker with pid: 24539
+[2022-03-09 00:42:12 +0530] [24523] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24523] [INFO] Worker exiting (pid: 24523)
+[2022-03-09 00:42:12 +0530] [25045] [INFO] Booting worker with pid: 25045
+[2022-03-09 00:42:12 +0530] [24526] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24526] [INFO] Worker exiting (pid: 24526)
+[2022-03-09 00:42:12 +0530] [25047] [INFO] Booting worker with pid: 25047
+[2022-03-09 00:42:12 +0530] [24530] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24530] [INFO] Worker exiting (pid: 24530)
+[2022-03-09 00:42:12 +0530] [25049] [INFO] Booting worker with pid: 25049
+[2022-03-09 00:42:12 +0530] [24528] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24528] [INFO] Worker exiting (pid: 24528)
+[2022-03-09 00:42:12 +0530] [24531] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24531] [INFO] Worker exiting (pid: 24531)
+[2022-03-09 00:42:12 +0530] [25051] [INFO] Booting worker with pid: 25051
+[2022-03-09 00:42:12 +0530] [24533] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24533] [INFO] Worker exiting (pid: 24533)
+[2022-03-09 00:42:12 +0530] [25053] [INFO] Booting worker with pid: 25053
+[2022-03-09 00:42:12 +0530] [24537] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:12 +0530] [24537] [INFO] Worker exiting (pid: 24537)
+[2022-03-09 00:42:12 +0530] [25055] [INFO] Booting worker with pid: 25055
+[2022-03-09 00:42:13 +0530] [25057] [INFO] Booting worker with pid: 25057
+[2022-03-09 00:42:13 +0530] [24539] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:13 +0530] [24539] [INFO] Worker exiting (pid: 24539)
+[2022-03-09 00:42:13 +0530] [24521] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:42:13 +0530] [24521] [INFO] Worker exiting (pid: 24521)
+[2022-03-09 00:42:13 +0530] [25060] [INFO] Booting worker with pid: 25060
+[2022-03-09 00:42:13 +0530] [25062] [INFO] Booting worker with pid: 25062
+[2022-03-09 00:45:12 +0530] [25047] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:12 +0530] [25047] [INFO] Worker exiting (pid: 25047)
+[2022-03-09 00:45:12 +0530] [25472] [INFO] Booting worker with pid: 25472
+[2022-03-09 00:45:13 +0530] [25049] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25049] [INFO] Worker exiting (pid: 25049)
+[2022-03-09 00:45:13 +0530] [25473] [INFO] Booting worker with pid: 25473
+[2022-03-09 00:45:13 +0530] [25051] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25051] [INFO] Worker exiting (pid: 25051)
+[2022-03-09 00:45:13 +0530] [25053] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25053] [INFO] Worker exiting (pid: 25053)
+[2022-03-09 00:45:13 +0530] [25477] [INFO] Booting worker with pid: 25477
+[2022-03-09 00:45:13 +0530] [25055] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25055] [INFO] Worker exiting (pid: 25055)
+[2022-03-09 00:45:13 +0530] [25479] [INFO] Booting worker with pid: 25479
+[2022-03-09 00:45:13 +0530] [25057] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25057] [INFO] Worker exiting (pid: 25057)
+[2022-03-09 00:45:13 +0530] [25481] [INFO] Booting worker with pid: 25481
+[2022-03-09 00:45:13 +0530] [25482] [INFO] Booting worker with pid: 25482
+[2022-03-09 00:45:13 +0530] [25060] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25060] [INFO] Worker exiting (pid: 25060)
+[2022-03-09 00:45:13 +0530] [25045] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25045] [INFO] Worker exiting (pid: 25045)
+[2022-03-09 00:45:13 +0530] [25062] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:45:13 +0530] [25062] [INFO] Worker exiting (pid: 25062)
+[2022-03-09 00:45:13 +0530] [25484] [INFO] Booting worker with pid: 25484
+[2022-03-09 00:45:13 +0530] [25485] [INFO] Booting worker with pid: 25485
+[2022-03-09 00:45:13 +0530] [25488] [INFO] Booting worker with pid: 25488
+[2022-03-09 00:48:33 +0530] [25479] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25479] [INFO] Worker exiting (pid: 25479)
+[2022-03-09 00:48:33 +0530] [25484] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25482] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25482] [INFO] Worker exiting (pid: 25482)
+[2022-03-09 00:48:33 +0530] [25484] [INFO] Worker exiting (pid: 25484)
+[2022-03-09 00:48:33 +0530] [25481] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25481] [INFO] Worker exiting (pid: 25481)
+[2022-03-09 00:48:33 +0530] [25485] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25485] [INFO] Worker exiting (pid: 25485)
+[2022-03-09 00:48:33 +0530] [25488] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25488] [INFO] Worker exiting (pid: 25488)
+[2022-03-09 00:48:33 +0530] [25472] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25472] [INFO] Worker exiting (pid: 25472)
+[2022-03-09 00:48:33 +0530] [25643] [INFO] Booting worker with pid: 25643
+[2022-03-09 00:48:33 +0530] [25644] [INFO] Booting worker with pid: 25644
+[2022-03-09 00:48:33 +0530] [25646] [INFO] Booting worker with pid: 25646
+[2022-03-09 00:48:33 +0530] [25647] [INFO] Booting worker with pid: 25647
+[2022-03-09 00:48:33 +0530] [25473] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25473] [INFO] Worker exiting (pid: 25473)
+[2022-03-09 00:48:33 +0530] [25648] [INFO] Booting worker with pid: 25648
+[2022-03-09 00:48:33 +0530] [25649] [INFO] Booting worker with pid: 25649
+[2022-03-09 00:48:33 +0530] [25650] [INFO] Booting worker with pid: 25650
+[2022-03-09 00:48:33 +0530] [25652] [INFO] Booting worker with pid: 25652
+[2022-03-09 00:48:33 +0530] [25477] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:33 +0530] [25477] [INFO] Worker exiting (pid: 25477)
+[2022-03-09 00:48:34 +0530] [25658] [INFO] Booting worker with pid: 25658
+[2022-03-09 00:48:42 +0530] [25644] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:42 +0530] [25644] [INFO] Worker exiting (pid: 25644)
+[2022-03-09 00:48:43 +0530] [25647] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25647] [INFO] Worker exiting (pid: 25647)
+[2022-03-09 00:48:43 +0530] [25677] [INFO] Booting worker with pid: 25677
+[2022-03-09 00:48:43 +0530] [25678] [INFO] Booting worker with pid: 25678
+[2022-03-09 00:48:43 +0530] [25649] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25649] [INFO] Worker exiting (pid: 25649)
+[2022-03-09 00:48:43 +0530] [25648] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25648] [INFO] Worker exiting (pid: 25648)
+[2022-03-09 00:48:43 +0530] [25646] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25646] [INFO] Worker exiting (pid: 25646)
+[2022-03-09 00:48:43 +0530] [25650] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25650] [INFO] Worker exiting (pid: 25650)
+[2022-03-09 00:48:43 +0530] [25679] [INFO] Booting worker with pid: 25679
+[2022-03-09 00:48:43 +0530] [25652] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25652] [INFO] Worker exiting (pid: 25652)
+[2022-03-09 00:48:43 +0530] [25682] [INFO] Booting worker with pid: 25682
+[2022-03-09 00:48:43 +0530] [25658] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25658] [INFO] Worker exiting (pid: 25658)
+[2022-03-09 00:48:43 +0530] [25684] [INFO] Booting worker with pid: 25684
+[2022-03-09 00:48:43 +0530] [25686] [INFO] Booting worker with pid: 25686
+[2022-03-09 00:48:43 +0530] [25688] [INFO] Booting worker with pid: 25688
+[2022-03-09 00:48:43 +0530] [25689] [INFO] Booting worker with pid: 25689
+[2022-03-09 00:48:43 +0530] [25643] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:48:43 +0530] [25643] [INFO] Worker exiting (pid: 25643)
+[2022-03-09 00:48:43 +0530] [25694] [INFO] Booting worker with pid: 25694
+[2022-03-09 00:50:14 +0530] [25678] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25678] [INFO] Worker exiting (pid: 25678)
+[2022-03-09 00:50:14 +0530] [25764] [INFO] Booting worker with pid: 25764
+[2022-03-09 00:50:14 +0530] [25679] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25679] [INFO] Worker exiting (pid: 25679)
+[2022-03-09 00:50:14 +0530] [25765] [INFO] Booting worker with pid: 25765
+[2022-03-09 00:50:14 +0530] [25682] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25682] [INFO] Worker exiting (pid: 25682)
+[2022-03-09 00:50:14 +0530] [25684] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25684] [INFO] Worker exiting (pid: 25684)
+[2022-03-09 00:50:14 +0530] [25686] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25686] [INFO] Worker exiting (pid: 25686)
+[2022-03-09 00:50:14 +0530] [25768] [INFO] Booting worker with pid: 25768
+[2022-03-09 00:50:14 +0530] [25769] [INFO] Booting worker with pid: 25769
+[2022-03-09 00:50:14 +0530] [25688] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25688] [INFO] Worker exiting (pid: 25688)
+[2022-03-09 00:50:14 +0530] [25771] [INFO] Booting worker with pid: 25771
+[2022-03-09 00:50:14 +0530] [25689] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25689] [INFO] Worker exiting (pid: 25689)
+[2022-03-09 00:50:14 +0530] [25694] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25694] [INFO] Worker exiting (pid: 25694)
+[2022-03-09 00:50:14 +0530] [25773] [INFO] Booting worker with pid: 25773
+[2022-03-09 00:50:14 +0530] [25774] [INFO] Booting worker with pid: 25774
+[2022-03-09 00:50:14 +0530] [25776] [INFO] Booting worker with pid: 25776
+[2022-03-09 00:50:14 +0530] [25677] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:14 +0530] [25677] [INFO] Worker exiting (pid: 25677)
+[2022-03-09 00:50:15 +0530] [25779] [INFO] Booting worker with pid: 25779
+[2022-03-09 00:50:17 +0530] [25765] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:17 +0530] [25765] [INFO] Worker exiting (pid: 25765)
+[2022-03-09 00:50:17 +0530] [25800] [INFO] Booting worker with pid: 25800
+[2022-03-09 00:50:17 +0530] [25768] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:17 +0530] [25768] [INFO] Worker exiting (pid: 25768)
+[2022-03-09 00:50:17 +0530] [25769] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:17 +0530] [25769] [INFO] Worker exiting (pid: 25769)
+[2022-03-09 00:50:17 +0530] [25803] [INFO] Booting worker with pid: 25803
+[2022-03-09 00:50:18 +0530] [25771] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25771] [INFO] Worker exiting (pid: 25771)
+[2022-03-09 00:50:18 +0530] [25805] [INFO] Booting worker with pid: 25805
+[2022-03-09 00:50:18 +0530] [25773] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25773] [INFO] Worker exiting (pid: 25773)
+[2022-03-09 00:50:18 +0530] [25806] [INFO] Booting worker with pid: 25806
+[2022-03-09 00:50:18 +0530] [25774] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25774] [INFO] Worker exiting (pid: 25774)
+[2022-03-09 00:50:18 +0530] [25776] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25776] [INFO] Worker exiting (pid: 25776)
+[2022-03-09 00:50:18 +0530] [25779] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25779] [INFO] Worker exiting (pid: 25779)
+[2022-03-09 00:50:18 +0530] [25807] [INFO] Booting worker with pid: 25807
+[2022-03-09 00:50:18 +0530] [25808] [INFO] Booting worker with pid: 25808
+[2022-03-09 00:50:18 +0530] [25764] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:18 +0530] [25764] [INFO] Worker exiting (pid: 25764)
+[2022-03-09 00:50:18 +0530] [25811] [INFO] Booting worker with pid: 25811
+[2022-03-09 00:50:18 +0530] [25813] [INFO] Booting worker with pid: 25813
+[2022-03-09 00:50:18 +0530] [25814] [INFO] Booting worker with pid: 25814
+[2022-03-09 00:50:25 +0530] [25803] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25803] [INFO] Worker exiting (pid: 25803)
+[2022-03-09 00:50:25 +0530] [25805] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25805] [INFO] Worker exiting (pid: 25805)
+[2022-03-09 00:50:25 +0530] [25806] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25806] [INFO] Worker exiting (pid: 25806)
+[2022-03-09 00:50:25 +0530] [25830] [INFO] Booting worker with pid: 25830
+[2022-03-09 00:50:25 +0530] [25831] [INFO] Booting worker with pid: 25831
+[2022-03-09 00:50:25 +0530] [25833] [INFO] Booting worker with pid: 25833
+[2022-03-09 00:50:25 +0530] [25811] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25811] [INFO] Worker exiting (pid: 25811)
+[2022-03-09 00:50:25 +0530] [25835] [INFO] Booting worker with pid: 25835
+[2022-03-09 00:50:25 +0530] [25807] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25807] [INFO] Worker exiting (pid: 25807)
+[2022-03-09 00:50:25 +0530] [25808] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25808] [INFO] Worker exiting (pid: 25808)
+[2022-03-09 00:50:25 +0530] [25814] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25814] [INFO] Worker exiting (pid: 25814)
+[2022-03-09 00:50:25 +0530] [25813] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:25 +0530] [25813] [INFO] Worker exiting (pid: 25813)
+[2022-03-09 00:50:25 +0530] [25838] [INFO] Booting worker with pid: 25838
+[2022-03-09 00:50:26 +0530] [25839] [INFO] Booting worker with pid: 25839
+[2022-03-09 00:50:26 +0530] [25800] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:50:26 +0530] [25800] [INFO] Worker exiting (pid: 25800)
+[2022-03-09 00:50:26 +0530] [25840] [INFO] Booting worker with pid: 25840
+[2022-03-09 00:50:26 +0530] [25842] [INFO] Booting worker with pid: 25842
+[2022-03-09 00:50:26 +0530] [25843] [INFO] Booting worker with pid: 25843
+[2022-03-09 00:52:11 +0530] [25835] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25835] [INFO] Worker exiting (pid: 25835)
+[2022-03-09 00:52:11 +0530] [25935] [INFO] Booting worker with pid: 25935
+[2022-03-09 00:52:11 +0530] [25839] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25839] [INFO] Worker exiting (pid: 25839)
+[2022-03-09 00:52:11 +0530] [25838] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25838] [INFO] Worker exiting (pid: 25838)
+[2022-03-09 00:52:11 +0530] [25840] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25840] [INFO] Worker exiting (pid: 25840)
+[2022-03-09 00:52:11 +0530] [25842] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25842] [INFO] Worker exiting (pid: 25842)
+[2022-03-09 00:52:11 +0530] [25843] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:11 +0530] [25843] [INFO] Worker exiting (pid: 25843)
+[2022-03-09 00:52:12 +0530] [25939] [INFO] Booting worker with pid: 25939
+[2022-03-09 00:52:12 +0530] [25940] [INFO] Booting worker with pid: 25940
+[2022-03-09 00:52:12 +0530] [25941] [INFO] Booting worker with pid: 25941
+[2022-03-09 00:52:12 +0530] [25942] [INFO] Booting worker with pid: 25942
+[2022-03-09 00:52:12 +0530] [25943] [INFO] Booting worker with pid: 25943
+[2022-03-09 00:52:12 +0530] [25830] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:12 +0530] [25830] [INFO] Worker exiting (pid: 25830)
+[2022-03-09 00:52:12 +0530] [25831] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:12 +0530] [25831] [INFO] Worker exiting (pid: 25831)
+[2022-03-09 00:52:12 +0530] [25833] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:52:12 +0530] [25833] [INFO] Worker exiting (pid: 25833)
+[2022-03-09 00:52:12 +0530] [25947] [INFO] Booting worker with pid: 25947
+[2022-03-09 00:52:12 +0530] [25950] [INFO] Booting worker with pid: 25950
+[2022-03-09 00:52:12 +0530] [25951] [INFO] Booting worker with pid: 25951
+[2022-03-09 00:53:16 +0530] [25935] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25935] [INFO] Worker exiting (pid: 25935)
+[2022-03-09 00:53:16 +0530] [26038] [INFO] Booting worker with pid: 26038
+[2022-03-09 00:53:16 +0530] [25939] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25939] [INFO] Worker exiting (pid: 25939)
+[2022-03-09 00:53:16 +0530] [26051] [INFO] Booting worker with pid: 26051
+[2022-03-09 00:53:16 +0530] [25942] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25942] [INFO] Worker exiting (pid: 25942)
+[2022-03-09 00:53:16 +0530] [25941] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25941] [INFO] Worker exiting (pid: 25941)
+[2022-03-09 00:53:16 +0530] [25940] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25940] [INFO] Worker exiting (pid: 25940)
+[2022-03-09 00:53:16 +0530] [25943] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:16 +0530] [25943] [INFO] Worker exiting (pid: 25943)
+[2022-03-09 00:53:16 +0530] [26053] [INFO] Booting worker with pid: 26053
+[2022-03-09 00:53:17 +0530] [26054] [INFO] Booting worker with pid: 26054
+[2022-03-09 00:53:17 +0530] [26055] [INFO] Booting worker with pid: 26055
+[2022-03-09 00:53:17 +0530] [26056] [INFO] Booting worker with pid: 26056
+[2022-03-09 00:53:17 +0530] [25947] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:17 +0530] [25947] [INFO] Worker exiting (pid: 25947)
+[2022-03-09 00:53:17 +0530] [25950] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:17 +0530] [25950] [INFO] Worker exiting (pid: 25950)
+[2022-03-09 00:53:17 +0530] [25951] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:17 +0530] [25951] [INFO] Worker exiting (pid: 25951)
+[2022-03-09 00:53:17 +0530] [26059] [INFO] Booting worker with pid: 26059
+[2022-03-09 00:53:17 +0530] [26061] [INFO] Booting worker with pid: 26061
+[2022-03-09 00:53:17 +0530] [26062] [INFO] Booting worker with pid: 26062
+[2022-03-09 00:53:35 +0530] [26056] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26056] [INFO] Worker exiting (pid: 26056)
+[2022-03-09 00:53:35 +0530] [26055] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26055] [INFO] Worker exiting (pid: 26055)
+[2022-03-09 00:53:35 +0530] [26077] [INFO] Booting worker with pid: 26077
+[2022-03-09 00:53:35 +0530] [26059] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26059] [INFO] Worker exiting (pid: 26059)
+[2022-03-09 00:53:35 +0530] [26038] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26038] [INFO] Worker exiting (pid: 26038)
+[2022-03-09 00:53:35 +0530] [26078] [INFO] Booting worker with pid: 26078
+[2022-03-09 00:53:35 +0530] [26061] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26061] [INFO] Worker exiting (pid: 26061)
+[2022-03-09 00:53:35 +0530] [26062] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:35 +0530] [26062] [INFO] Worker exiting (pid: 26062)
+[2022-03-09 00:53:35 +0530] [26079] [INFO] Booting worker with pid: 26079
+[2022-03-09 00:53:35 +0530] [26080] [INFO] Booting worker with pid: 26080
+[2022-03-09 00:53:35 +0530] [26081] [INFO] Booting worker with pid: 26081
+[2022-03-09 00:53:35 +0530] [26083] [INFO] Booting worker with pid: 26083
+[2022-03-09 00:53:36 +0530] [26051] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:36 +0530] [26051] [INFO] Worker exiting (pid: 26051)
+[2022-03-09 00:53:36 +0530] [26089] [INFO] Booting worker with pid: 26089
+[2022-03-09 00:53:36 +0530] [26053] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:36 +0530] [26053] [INFO] Worker exiting (pid: 26053)
+[2022-03-09 00:53:36 +0530] [26054] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:53:36 +0530] [26054] [INFO] Worker exiting (pid: 26054)
+[2022-03-09 00:53:36 +0530] [26101] [INFO] Booting worker with pid: 26101
+[2022-03-09 00:53:36 +0530] [26102] [INFO] Booting worker with pid: 26102
+[2022-03-09 00:54:50 +0530] [26102] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26102] [INFO] Worker exiting (pid: 26102)
+[2022-03-09 00:54:50 +0530] [26101] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26101] [INFO] Worker exiting (pid: 26101)
+[2022-03-09 00:54:50 +0530] [26077] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26077] [INFO] Worker exiting (pid: 26077)
+[2022-03-09 00:54:50 +0530] [26232] [INFO] Booting worker with pid: 26232
+[2022-03-09 00:54:50 +0530] [26234] [INFO] Booting worker with pid: 26234
+[2022-03-09 00:54:50 +0530] [26078] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26078] [INFO] Worker exiting (pid: 26078)
+[2022-03-09 00:54:50 +0530] [26079] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26079] [INFO] Worker exiting (pid: 26079)
+[2022-03-09 00:54:50 +0530] [26080] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26080] [INFO] Worker exiting (pid: 26080)
+[2022-03-09 00:54:50 +0530] [26235] [INFO] Booting worker with pid: 26235
+[2022-03-09 00:54:50 +0530] [26236] [INFO] Booting worker with pid: 26236
+[2022-03-09 00:54:50 +0530] [26237] [INFO] Booting worker with pid: 26237
+[2022-03-09 00:54:50 +0530] [26081] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26081] [INFO] Worker exiting (pid: 26081)
+[2022-03-09 00:54:50 +0530] [26083] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26083] [INFO] Worker exiting (pid: 26083)
+[2022-03-09 00:54:50 +0530] [26239] [INFO] Booting worker with pid: 26239
+[2022-03-09 00:54:50 +0530] [26241] [INFO] Booting worker with pid: 26241
+[2022-03-09 00:54:50 +0530] [26242] [INFO] Booting worker with pid: 26242
+[2022-03-09 00:54:50 +0530] [26089] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:54:50 +0530] [26089] [INFO] Worker exiting (pid: 26089)
+[2022-03-09 00:54:50 +0530] [26245] [INFO] Booting worker with pid: 26245
+[2022-03-09 00:55:52 +0530] [26232] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:52 +0530] [26232] [INFO] Worker exiting (pid: 26232)
+[2022-03-09 00:55:53 +0530] [26315] [INFO] Booting worker with pid: 26315
+[2022-03-09 00:55:53 +0530] [26234] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26234] [INFO] Worker exiting (pid: 26234)
+[2022-03-09 00:55:53 +0530] [26235] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26235] [INFO] Worker exiting (pid: 26235)
+[2022-03-09 00:55:53 +0530] [26317] [INFO] Booting worker with pid: 26317
+[2022-03-09 00:55:53 +0530] [26236] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26236] [INFO] Worker exiting (pid: 26236)
+[2022-03-09 00:55:53 +0530] [26319] [INFO] Booting worker with pid: 26319
+[2022-03-09 00:55:53 +0530] [26321] [INFO] Booting worker with pid: 26321
+[2022-03-09 00:55:53 +0530] [26237] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26237] [INFO] Worker exiting (pid: 26237)
+[2022-03-09 00:55:53 +0530] [26242] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26242] [INFO] Worker exiting (pid: 26242)
+[2022-03-09 00:55:53 +0530] [26239] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26239] [INFO] Worker exiting (pid: 26239)
+[2022-03-09 00:55:53 +0530] [26241] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26241] [INFO] Worker exiting (pid: 26241)
+[2022-03-09 00:55:53 +0530] [26245] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:55:53 +0530] [26245] [INFO] Worker exiting (pid: 26245)
+[2022-03-09 00:55:53 +0530] [26324] [INFO] Booting worker with pid: 26324
+[2022-03-09 00:55:53 +0530] [26327] [INFO] Booting worker with pid: 26327
+[2022-03-09 00:55:53 +0530] [26328] [INFO] Booting worker with pid: 26328
+[2022-03-09 00:55:53 +0530] [26329] [INFO] Booting worker with pid: 26329
+[2022-03-09 00:55:53 +0530] [26330] [INFO] Booting worker with pid: 26330
+[2022-03-09 00:56:14 +0530] [26319] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:14 +0530] [26319] [INFO] Worker exiting (pid: 26319)
+[2022-03-09 00:56:14 +0530] [26317] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:14 +0530] [26317] [INFO] Worker exiting (pid: 26317)
+[2022-03-09 00:56:14 +0530] [26321] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:14 +0530] [26321] [INFO] Worker exiting (pid: 26321)
+[2022-03-09 00:56:14 +0530] [26348] [INFO] Booting worker with pid: 26348
+[2022-03-09 00:56:14 +0530] [26350] [INFO] Booting worker with pid: 26350
+[2022-03-09 00:56:14 +0530] [26324] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:14 +0530] [26324] [INFO] Worker exiting (pid: 26324)
+[2022-03-09 00:56:15 +0530] [26351] [INFO] Booting worker with pid: 26351
+[2022-03-09 00:56:15 +0530] [26327] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:15 +0530] [26327] [INFO] Worker exiting (pid: 26327)
+[2022-03-09 00:56:15 +0530] [26328] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:15 +0530] [26328] [INFO] Worker exiting (pid: 26328)
+[2022-03-09 00:56:15 +0530] [26352] [INFO] Booting worker with pid: 26352
+[2022-03-09 00:56:15 +0530] [26329] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:15 +0530] [26329] [INFO] Worker exiting (pid: 26329)
+[2022-03-09 00:56:15 +0530] [26330] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:15 +0530] [26330] [INFO] Worker exiting (pid: 26330)
+[2022-03-09 00:56:15 +0530] [26354] [INFO] Booting worker with pid: 26354
+[2022-03-09 00:56:15 +0530] [26355] [INFO] Booting worker with pid: 26355
+[2022-03-09 00:56:15 +0530] [26315] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:15 +0530] [26315] [INFO] Worker exiting (pid: 26315)
+[2022-03-09 00:56:15 +0530] [26357] [INFO] Booting worker with pid: 26357
+[2022-03-09 00:56:15 +0530] [26358] [INFO] Booting worker with pid: 26358
+[2022-03-09 00:56:15 +0530] [26359] [INFO] Booting worker with pid: 26359
+[2022-03-09 00:56:48 +0530] [26351] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:48 +0530] [26351] [INFO] Worker exiting (pid: 26351)
+[2022-03-09 00:56:49 +0530] [26359] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26359] [INFO] Worker exiting (pid: 26359)
+[2022-03-09 00:56:49 +0530] [26355] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26355] [INFO] Worker exiting (pid: 26355)
+[2022-03-09 00:56:49 +0530] [26357] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26357] [INFO] Worker exiting (pid: 26357)
+[2022-03-09 00:56:49 +0530] [26433] [INFO] Booting worker with pid: 26433
+[2022-03-09 00:56:49 +0530] [26358] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26358] [INFO] Worker exiting (pid: 26358)
+[2022-03-09 00:56:49 +0530] [26434] [INFO] Booting worker with pid: 26434
+[2022-03-09 00:56:49 +0530] [26435] [INFO] Booting worker with pid: 26435
+[2022-03-09 00:56:49 +0530] [26437] [INFO] Booting worker with pid: 26437
+[2022-03-09 00:56:49 +0530] [26440] [INFO] Booting worker with pid: 26440
+[2022-03-09 00:56:49 +0530] [26348] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26348] [INFO] Worker exiting (pid: 26348)
+[2022-03-09 00:56:49 +0530] [26350] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26350] [INFO] Worker exiting (pid: 26350)
+[2022-03-09 00:56:49 +0530] [26443] [INFO] Booting worker with pid: 26443
+[2022-03-09 00:56:49 +0530] [26445] [INFO] Booting worker with pid: 26445
+[2022-03-09 00:56:49 +0530] [26354] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26354] [INFO] Worker exiting (pid: 26354)
+[2022-03-09 00:56:49 +0530] [26352] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:56:49 +0530] [26352] [INFO] Worker exiting (pid: 26352)
+[2022-03-09 00:56:49 +0530] [26448] [INFO] Booting worker with pid: 26448
+[2022-03-09 00:56:49 +0530] [26450] [INFO] Booting worker with pid: 26450
+[2022-03-09 00:58:33 +0530] [26440] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26440] [INFO] Worker exiting (pid: 26440)
+[2022-03-09 00:58:33 +0530] [26437] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26437] [INFO] Worker exiting (pid: 26437)
+[2022-03-09 00:58:33 +0530] [26532] [INFO] Booting worker with pid: 26532
+[2022-03-09 00:58:33 +0530] [26533] [INFO] Booting worker with pid: 26533
+[2022-03-09 00:58:33 +0530] [26443] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26443] [INFO] Worker exiting (pid: 26443)
+[2022-03-09 00:58:33 +0530] [26535] [INFO] Booting worker with pid: 26535
+[2022-03-09 00:58:33 +0530] [26445] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26445] [INFO] Worker exiting (pid: 26445)
+[2022-03-09 00:58:33 +0530] [26539] [INFO] Booting worker with pid: 26539
+[2022-03-09 00:58:33 +0530] [26448] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26448] [INFO] Worker exiting (pid: 26448)
+[2022-03-09 00:58:33 +0530] [26450] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26450] [INFO] Worker exiting (pid: 26450)
+[2022-03-09 00:58:33 +0530] [26541] [INFO] Booting worker with pid: 26541
+[2022-03-09 00:58:33 +0530] [26543] [INFO] Booting worker with pid: 26543
+[2022-03-09 00:58:33 +0530] [26433] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26433] [INFO] Worker exiting (pid: 26433)
+[2022-03-09 00:58:33 +0530] [26434] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:33 +0530] [26434] [INFO] Worker exiting (pid: 26434)
+[2022-03-09 00:58:33 +0530] [26545] [INFO] Booting worker with pid: 26545
+[2022-03-09 00:58:34 +0530] [26547] [INFO] Booting worker with pid: 26547
+[2022-03-09 00:58:34 +0530] [26435] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:58:34 +0530] [26435] [INFO] Worker exiting (pid: 26435)
+[2022-03-09 00:58:34 +0530] [26550] [INFO] Booting worker with pid: 26550
+[2022-03-09 00:59:28 +0530] [26535] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26535] [INFO] Worker exiting (pid: 26535)
+[2022-03-09 00:59:28 +0530] [26622] [INFO] Booting worker with pid: 26622
+[2022-03-09 00:59:28 +0530] [26539] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26539] [INFO] Worker exiting (pid: 26539)
+[2022-03-09 00:59:28 +0530] [26623] [INFO] Booting worker with pid: 26623
+[2022-03-09 00:59:28 +0530] [26541] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26541] [INFO] Worker exiting (pid: 26541)
+[2022-03-09 00:59:28 +0530] [26543] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26543] [INFO] Worker exiting (pid: 26543)
+[2022-03-09 00:59:28 +0530] [26628] [INFO] Booting worker with pid: 26628
+[2022-03-09 00:59:28 +0530] [26545] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26545] [INFO] Worker exiting (pid: 26545)
+[2022-03-09 00:59:28 +0530] [26547] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26547] [INFO] Worker exiting (pid: 26547)
+[2022-03-09 00:59:28 +0530] [26629] [INFO] Booting worker with pid: 26629
+[2022-03-09 00:59:28 +0530] [26550] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26550] [INFO] Worker exiting (pid: 26550)
+[2022-03-09 00:59:28 +0530] [26630] [INFO] Booting worker with pid: 26630
+[2022-03-09 00:59:28 +0530] [26631] [INFO] Booting worker with pid: 26631
+[2022-03-09 00:59:28 +0530] [26532] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26532] [INFO] Worker exiting (pid: 26532)
+[2022-03-09 00:59:28 +0530] [26632] [INFO] Booting worker with pid: 26632
+[2022-03-09 00:59:28 +0530] [26635] [INFO] Booting worker with pid: 26635
+[2022-03-09 00:59:28 +0530] [26533] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 00:59:28 +0530] [26533] [INFO] Worker exiting (pid: 26533)
+[2022-03-09 00:59:29 +0530] [26637] [INFO] Booting worker with pid: 26637
+[2022-03-09 01:00:18 +0530] [26622] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:18 +0530] [26622] [INFO] Worker exiting (pid: 26622)
+[2022-03-09 01:00:18 +0530] [26695] [INFO] Booting worker with pid: 26695
+[2022-03-09 01:00:18 +0530] [26623] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:18 +0530] [26623] [INFO] Worker exiting (pid: 26623)
+[2022-03-09 01:00:18 +0530] [26698] [INFO] Booting worker with pid: 26698
+[2022-03-09 01:00:19 +0530] [26628] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26628] [INFO] Worker exiting (pid: 26628)
+[2022-03-09 01:00:19 +0530] [26629] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26629] [INFO] Worker exiting (pid: 26629)
+[2022-03-09 01:00:19 +0530] [26701] [INFO] Booting worker with pid: 26701
+[2022-03-09 01:00:19 +0530] [26631] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26631] [INFO] Worker exiting (pid: 26631)
+[2022-03-09 01:00:19 +0530] [26702] [INFO] Booting worker with pid: 26702
+[2022-03-09 01:00:19 +0530] [26630] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26630] [INFO] Worker exiting (pid: 26630)
+[2022-03-09 01:00:19 +0530] [26632] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26632] [INFO] Worker exiting (pid: 26632)
+[2022-03-09 01:00:19 +0530] [26635] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26635] [INFO] Worker exiting (pid: 26635)
+[2022-03-09 01:00:19 +0530] [26637] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:00:19 +0530] [26637] [INFO] Worker exiting (pid: 26637)
+[2022-03-09 01:00:19 +0530] [26703] [INFO] Booting worker with pid: 26703
+[2022-03-09 01:00:19 +0530] [26704] [INFO] Booting worker with pid: 26704
+[2022-03-09 01:00:19 +0530] [26705] [INFO] Booting worker with pid: 26705
+[2022-03-09 01:00:19 +0530] [26707] [INFO] Booting worker with pid: 26707
+[2022-03-09 01:00:19 +0530] [26709] [INFO] Booting worker with pid: 26709
+[2022-03-09 01:02:02 +0530] [26701] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26701] [INFO] Worker exiting (pid: 26701)
+[2022-03-09 01:02:02 +0530] [26816] [INFO] Booting worker with pid: 26816
+[2022-03-09 01:02:02 +0530] [26695] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26695] [INFO] Worker exiting (pid: 26695)
+[2022-03-09 01:02:02 +0530] [26702] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26702] [INFO] Worker exiting (pid: 26702)
+[2022-03-09 01:02:02 +0530] [26703] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26703] [INFO] Worker exiting (pid: 26703)
+[2022-03-09 01:02:02 +0530] [26704] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26704] [INFO] Worker exiting (pid: 26704)
+[2022-03-09 01:02:02 +0530] [26705] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26705] [INFO] Worker exiting (pid: 26705)
+[2022-03-09 01:02:02 +0530] [26698] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26698] [INFO] Worker exiting (pid: 26698)
+[2022-03-09 01:02:02 +0530] [26820] [INFO] Booting worker with pid: 26820
+[2022-03-09 01:02:02 +0530] [26822] [INFO] Booting worker with pid: 26822
+[2022-03-09 01:02:02 +0530] [26707] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26707] [INFO] Worker exiting (pid: 26707)
+[2022-03-09 01:02:02 +0530] [26709] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:02:02 +0530] [26823] [INFO] Booting worker with pid: 26823
+[2022-03-09 01:02:02 +0530] [26709] [INFO] Worker exiting (pid: 26709)
+[2022-03-09 01:02:02 +0530] [26824] [INFO] Booting worker with pid: 26824
+[2022-03-09 01:02:02 +0530] [26825] [INFO] Booting worker with pid: 26825
+[2022-03-09 01:02:02 +0530] [26826] [INFO] Booting worker with pid: 26826
+[2022-03-09 01:02:02 +0530] [26827] [INFO] Booting worker with pid: 26827
+[2022-03-09 01:02:02 +0530] [26829] [INFO] Booting worker with pid: 26829
+[2022-03-09 01:06:24 +0530] [26829] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:24 +0530] [26829] [INFO] Worker exiting (pid: 26829)
+[2022-03-09 01:06:24 +0530] [26823] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:24 +0530] [26823] [INFO] Worker exiting (pid: 26823)
+[2022-03-09 01:06:24 +0530] [27107] [INFO] Booting worker with pid: 27107
+[2022-03-09 01:06:25 +0530] [26824] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26824] [INFO] Worker exiting (pid: 26824)
+[2022-03-09 01:06:25 +0530] [27108] [INFO] Booting worker with pid: 27108
+[2022-03-09 01:06:25 +0530] [26826] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26826] [INFO] Worker exiting (pid: 26826)
+[2022-03-09 01:06:25 +0530] [26827] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26827] [INFO] Worker exiting (pid: 26827)
+[2022-03-09 01:06:25 +0530] [26825] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26825] [INFO] Worker exiting (pid: 26825)
+[2022-03-09 01:06:25 +0530] [26822] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26822] [INFO] Worker exiting (pid: 26822)
+[2022-03-09 01:06:25 +0530] [26816] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26816] [INFO] Worker exiting (pid: 26816)
+[2022-03-09 01:06:25 +0530] [27112] [INFO] Booting worker with pid: 27112
+[2022-03-09 01:06:25 +0530] [27113] [INFO] Booting worker with pid: 27113
+[2022-03-09 01:06:25 +0530] [27115] [INFO] Booting worker with pid: 27115
+[2022-03-09 01:06:25 +0530] [27116] [INFO] Booting worker with pid: 27116
+[2022-03-09 01:06:25 +0530] [26820] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:06:25 +0530] [26820] [INFO] Worker exiting (pid: 26820)
+[2022-03-09 01:06:25 +0530] [27118] [INFO] Booting worker with pid: 27118
+[2022-03-09 01:06:25 +0530] [27119] [INFO] Booting worker with pid: 27119
+[2022-03-09 01:06:25 +0530] [27121] [INFO] Booting worker with pid: 27121
+[2022-03-09 01:07:39 +0530] [27107] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:39 +0530] [27107] [INFO] Worker exiting (pid: 27107)
+[2022-03-09 01:07:39 +0530] [27243] [INFO] Booting worker with pid: 27243
+[2022-03-09 01:07:40 +0530] [27108] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27108] [INFO] Worker exiting (pid: 27108)
+[2022-03-09 01:07:40 +0530] [27247] [INFO] Booting worker with pid: 27247
+[2022-03-09 01:07:40 +0530] [27112] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27112] [INFO] Worker exiting (pid: 27112)
+[2022-03-09 01:07:40 +0530] [27113] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27113] [INFO] Worker exiting (pid: 27113)
+[2022-03-09 01:07:40 +0530] [27248] [INFO] Booting worker with pid: 27248
+[2022-03-09 01:07:40 +0530] [27116] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27116] [INFO] Worker exiting (pid: 27116)
+[2022-03-09 01:07:40 +0530] [27115] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27115] [INFO] Worker exiting (pid: 27115)
+[2022-03-09 01:07:40 +0530] [27250] [INFO] Booting worker with pid: 27250
+[2022-03-09 01:07:40 +0530] [27118] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27118] [INFO] Worker exiting (pid: 27118)
+[2022-03-09 01:07:40 +0530] [27119] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27119] [INFO] Worker exiting (pid: 27119)
+[2022-03-09 01:07:40 +0530] [27251] [INFO] Booting worker with pid: 27251
+[2022-03-09 01:07:40 +0530] [27252] [INFO] Booting worker with pid: 27252
+[2022-03-09 01:07:40 +0530] [27121] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:07:40 +0530] [27121] [INFO] Worker exiting (pid: 27121)
+[2022-03-09 01:07:40 +0530] [27253] [INFO] Booting worker with pid: 27253
+[2022-03-09 01:07:40 +0530] [27254] [INFO] Booting worker with pid: 27254
+[2022-03-09 01:07:40 +0530] [27255] [INFO] Booting worker with pid: 27255
+[2022-03-09 01:08:11 +0530] [27248] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:11 +0530] [27248] [INFO] Worker exiting (pid: 27248)
+[2022-03-09 01:08:11 +0530] [27250] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:11 +0530] [27250] [INFO] Worker exiting (pid: 27250)
+[2022-03-09 01:08:11 +0530] [27308] [INFO] Booting worker with pid: 27308
+[2022-03-09 01:08:11 +0530] [27251] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:11 +0530] [27251] [INFO] Worker exiting (pid: 27251)
+[2022-03-09 01:08:11 +0530] [27252] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:11 +0530] [27252] [INFO] Worker exiting (pid: 27252)
+[2022-03-09 01:08:12 +0530] [27310] [INFO] Booting worker with pid: 27310
+[2022-03-09 01:08:12 +0530] [27254] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:12 +0530] [27254] [INFO] Worker exiting (pid: 27254)
+[2022-03-09 01:08:12 +0530] [27253] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:12 +0530] [27253] [INFO] Worker exiting (pid: 27253)
+[2022-03-09 01:08:12 +0530] [27255] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:12 +0530] [27255] [INFO] Worker exiting (pid: 27255)
+[2022-03-09 01:08:12 +0530] [27311] [INFO] Booting worker with pid: 27311
+[2022-03-09 01:08:12 +0530] [27313] [INFO] Booting worker with pid: 27313
+[2022-03-09 01:08:12 +0530] [27243] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:12 +0530] [27243] [INFO] Worker exiting (pid: 27243)
+[2022-03-09 01:08:12 +0530] [27314] [INFO] Booting worker with pid: 27314
+[2022-03-09 01:08:12 +0530] [27315] [INFO] Booting worker with pid: 27315
+[2022-03-09 01:08:12 +0530] [27317] [INFO] Booting worker with pid: 27317
+[2022-03-09 01:08:12 +0530] [27318] [INFO] Booting worker with pid: 27318
+[2022-03-09 01:08:12 +0530] [27247] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:08:12 +0530] [27247] [INFO] Worker exiting (pid: 27247)
+[2022-03-09 01:08:12 +0530] [27322] [INFO] Booting worker with pid: 27322
+[2022-03-09 01:10:00 +0530] [27314] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27314] [INFO] Worker exiting (pid: 27314)
+[2022-03-09 01:10:00 +0530] [27462] [INFO] Booting worker with pid: 27462
+[2022-03-09 01:10:00 +0530] [27318] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27318] [INFO] Worker exiting (pid: 27318)
+[2022-03-09 01:10:00 +0530] [27317] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27317] [INFO] Worker exiting (pid: 27317)
+[2022-03-09 01:10:00 +0530] [27315] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27315] [INFO] Worker exiting (pid: 27315)
+[2022-03-09 01:10:00 +0530] [27463] [INFO] Booting worker with pid: 27463
+[2022-03-09 01:10:00 +0530] [27466] [INFO] Booting worker with pid: 27466
+[2022-03-09 01:10:00 +0530] [27322] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27322] [INFO] Worker exiting (pid: 27322)
+[2022-03-09 01:10:00 +0530] [27467] [INFO] Booting worker with pid: 27467
+[2022-03-09 01:10:00 +0530] [27470] [INFO] Booting worker with pid: 27470
+[2022-03-09 01:10:00 +0530] [27308] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:00 +0530] [27308] [INFO] Worker exiting (pid: 27308)
+[2022-03-09 01:10:00 +0530] [27473] [INFO] Booting worker with pid: 27473
+[2022-03-09 01:10:01 +0530] [27311] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:01 +0530] [27311] [INFO] Worker exiting (pid: 27311)
+[2022-03-09 01:10:01 +0530] [27475] [INFO] Booting worker with pid: 27475
+[2022-03-09 01:10:01 +0530] [27313] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:01 +0530] [27313] [INFO] Worker exiting (pid: 27313)
+[2022-03-09 01:10:01 +0530] [27310] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:10:01 +0530] [27310] [INFO] Worker exiting (pid: 27310)
+[2022-03-09 01:10:01 +0530] [27477] [INFO] Booting worker with pid: 27477
+[2022-03-09 01:10:01 +0530] [27478] [INFO] Booting worker with pid: 27478
+[2022-03-09 01:11:53 +0530] [27463] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:53 +0530] [27463] [INFO] Worker exiting (pid: 27463)
+[2022-03-09 01:11:53 +0530] [27466] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:53 +0530] [27466] [INFO] Worker exiting (pid: 27466)
+[2022-03-09 01:11:53 +0530] [27612] [INFO] Booting worker with pid: 27612
+[2022-03-09 01:11:53 +0530] [27467] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:53 +0530] [27467] [INFO] Worker exiting (pid: 27467)
+[2022-03-09 01:11:53 +0530] [27613] [INFO] Booting worker with pid: 27613
+[2022-03-09 01:11:53 +0530] [27614] [INFO] Booting worker with pid: 27614
+[2022-03-09 01:11:53 +0530] [27470] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:53 +0530] [27470] [INFO] Worker exiting (pid: 27470)
+[2022-03-09 01:11:53 +0530] [27617] [INFO] Booting worker with pid: 27617
+[2022-03-09 01:11:53 +0530] [27473] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:53 +0530] [27473] [INFO] Worker exiting (pid: 27473)
+[2022-03-09 01:11:53 +0530] [27620] [INFO] Booting worker with pid: 27620
+[2022-03-09 01:11:54 +0530] [27475] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:54 +0530] [27475] [INFO] Worker exiting (pid: 27475)
+[2022-03-09 01:11:54 +0530] [27623] [INFO] Booting worker with pid: 27623
+[2022-03-09 01:11:54 +0530] [27462] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:54 +0530] [27462] [INFO] Worker exiting (pid: 27462)
+[2022-03-09 01:11:54 +0530] [27477] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:54 +0530] [27477] [INFO] Worker exiting (pid: 27477)
+[2022-03-09 01:11:54 +0530] [27478] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:11:54 +0530] [27478] [INFO] Worker exiting (pid: 27478)
+[2022-03-09 01:11:54 +0530] [27625] [INFO] Booting worker with pid: 27625
+[2022-03-09 01:11:54 +0530] [27626] [INFO] Booting worker with pid: 27626
+[2022-03-09 01:11:54 +0530] [27627] [INFO] Booting worker with pid: 27627
+[2022-03-09 01:12:34 +0530] [27617] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27617] [INFO] Worker exiting (pid: 27617)
+[2022-03-09 01:12:34 +0530] [27693] [INFO] Booting worker with pid: 27693
+[2022-03-09 01:12:34 +0530] [27620] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27620] [INFO] Worker exiting (pid: 27620)
+[2022-03-09 01:12:34 +0530] [27694] [INFO] Booting worker with pid: 27694
+[2022-03-09 01:12:34 +0530] [27623] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27623] [INFO] Worker exiting (pid: 27623)
+[2022-03-09 01:12:34 +0530] [27700] [INFO] Booting worker with pid: 27700
+[2022-03-09 01:12:34 +0530] [27625] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27625] [INFO] Worker exiting (pid: 27625)
+[2022-03-09 01:12:34 +0530] [27626] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27626] [INFO] Worker exiting (pid: 27626)
+[2022-03-09 01:12:34 +0530] [27701] [INFO] Booting worker with pid: 27701
+[2022-03-09 01:12:34 +0530] [27627] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27627] [INFO] Worker exiting (pid: 27627)
+[2022-03-09 01:12:34 +0530] [27702] [INFO] Booting worker with pid: 27702
+[2022-03-09 01:12:34 +0530] [27612] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:34 +0530] [27612] [INFO] Worker exiting (pid: 27612)
+[2022-03-09 01:12:34 +0530] [27704] [INFO] Booting worker with pid: 27704
+[2022-03-09 01:12:35 +0530] [27613] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:35 +0530] [27613] [INFO] Worker exiting (pid: 27613)
+[2022-03-09 01:12:35 +0530] [27705] [INFO] Booting worker with pid: 27705
+[2022-03-09 01:12:35 +0530] [27614] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:12:35 +0530] [27614] [INFO] Worker exiting (pid: 27614)
+[2022-03-09 01:12:35 +0530] [27707] [INFO] Booting worker with pid: 27707
+[2022-03-09 01:12:35 +0530] [27710] [INFO] Booting worker with pid: 27710
+[2022-03-09 01:13:05 +0530] [27700] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27700] [INFO] Worker exiting (pid: 27700)
+[2022-03-09 01:13:05 +0530] [27751] [INFO] Booting worker with pid: 27751
+[2022-03-09 01:13:05 +0530] [27701] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27701] [INFO] Worker exiting (pid: 27701)
+[2022-03-09 01:13:05 +0530] [27754] [INFO] Booting worker with pid: 27754
+[2022-03-09 01:13:05 +0530] [27702] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27702] [INFO] Worker exiting (pid: 27702)
+[2022-03-09 01:13:05 +0530] [27704] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27704] [INFO] Worker exiting (pid: 27704)
+[2022-03-09 01:13:05 +0530] [27756] [INFO] Booting worker with pid: 27756
+[2022-03-09 01:13:05 +0530] [27757] [INFO] Booting worker with pid: 27757
+[2022-03-09 01:13:05 +0530] [27705] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27705] [INFO] Worker exiting (pid: 27705)
+[2022-03-09 01:13:05 +0530] [27707] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27707] [INFO] Worker exiting (pid: 27707)
+[2022-03-09 01:13:05 +0530] [27710] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27710] [INFO] Worker exiting (pid: 27710)
+[2022-03-09 01:13:05 +0530] [27693] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27693] [INFO] Worker exiting (pid: 27693)
+[2022-03-09 01:13:05 +0530] [27759] [INFO] Booting worker with pid: 27759
+[2022-03-09 01:13:05 +0530] [27760] [INFO] Booting worker with pid: 27760
+[2022-03-09 01:13:05 +0530] [27694] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:13:05 +0530] [27694] [INFO] Worker exiting (pid: 27694)
+[2022-03-09 01:13:05 +0530] [27761] [INFO] Booting worker with pid: 27761
+[2022-03-09 01:13:05 +0530] [27763] [INFO] Booting worker with pid: 27763
+[2022-03-09 01:13:05 +0530] [27764] [INFO] Booting worker with pid: 27764
+[2022-03-09 01:14:09 +0530] [27757] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27757] [INFO] Worker exiting (pid: 27757)
+[2022-03-09 01:14:09 +0530] [27760] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27760] [INFO] Worker exiting (pid: 27760)
+[2022-03-09 01:14:09 +0530] [27759] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27759] [INFO] Worker exiting (pid: 27759)
+[2022-03-09 01:14:09 +0530] [27804] [INFO] Booting worker with pid: 27804
+[2022-03-09 01:14:09 +0530] [27805] [INFO] Booting worker with pid: 27805
+[2022-03-09 01:14:09 +0530] [27807] [INFO] Booting worker with pid: 27807
+[2022-03-09 01:14:09 +0530] [27763] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27763] [INFO] Worker exiting (pid: 27763)
+[2022-03-09 01:14:09 +0530] [27764] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27764] [INFO] Worker exiting (pid: 27764)
+[2022-03-09 01:14:09 +0530] [27761] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27761] [INFO] Worker exiting (pid: 27761)
+[2022-03-09 01:14:09 +0530] [27751] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27751] [INFO] Worker exiting (pid: 27751)
+[2022-03-09 01:14:09 +0530] [27809] [INFO] Booting worker with pid: 27809
+[2022-03-09 01:14:09 +0530] [27810] [INFO] Booting worker with pid: 27810
+[2022-03-09 01:14:09 +0530] [27812] [INFO] Booting worker with pid: 27812
+[2022-03-09 01:14:09 +0530] [27814] [INFO] Booting worker with pid: 27814
+[2022-03-09 01:14:09 +0530] [27754] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:09 +0530] [27754] [INFO] Worker exiting (pid: 27754)
+[2022-03-09 01:14:10 +0530] [27816] [INFO] Booting worker with pid: 27816
+[2022-03-09 01:14:10 +0530] [27756] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:14:10 +0530] [27756] [INFO] Worker exiting (pid: 27756)
+[2022-03-09 01:14:10 +0530] [27821] [INFO] Booting worker with pid: 27821
+[2022-03-09 01:18:15 +0530] [27809] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27809] [INFO] Worker exiting (pid: 27809)
+[2022-03-09 01:18:15 +0530] [28054] [INFO] Booting worker with pid: 28054
+[2022-03-09 01:18:15 +0530] [27812] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27812] [INFO] Worker exiting (pid: 27812)
+[2022-03-09 01:18:15 +0530] [27814] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27814] [INFO] Worker exiting (pid: 27814)
+[2022-03-09 01:18:15 +0530] [27810] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27810] [INFO] Worker exiting (pid: 27810)
+[2022-03-09 01:18:15 +0530] [27816] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27816] [INFO] Worker exiting (pid: 27816)
+[2022-03-09 01:18:15 +0530] [28055] [INFO] Booting worker with pid: 28055
+[2022-03-09 01:18:15 +0530] [28058] [INFO] Booting worker with pid: 28058
+[2022-03-09 01:18:15 +0530] [27821] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:15 +0530] [27821] [INFO] Worker exiting (pid: 27821)
+[2022-03-09 01:18:15 +0530] [28059] [INFO] Booting worker with pid: 28059
+[2022-03-09 01:18:15 +0530] [28061] [INFO] Booting worker with pid: 28061
+[2022-03-09 01:18:15 +0530] [28062] [INFO] Booting worker with pid: 28062
+[2022-03-09 01:18:16 +0530] [27805] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:16 +0530] [27805] [INFO] Worker exiting (pid: 27805)
+[2022-03-09 01:18:16 +0530] [27804] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:16 +0530] [27804] [INFO] Worker exiting (pid: 27804)
+[2022-03-09 01:18:16 +0530] [28068] [INFO] Booting worker with pid: 28068
+[2022-03-09 01:18:16 +0530] [27807] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:18:16 +0530] [27807] [INFO] Worker exiting (pid: 27807)
+[2022-03-09 01:18:16 +0530] [28070] [INFO] Booting worker with pid: 28070
+[2022-03-09 01:18:16 +0530] [28071] [INFO] Booting worker with pid: 28071
+[2022-03-09 01:19:23 +0530] [28054] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28054] [INFO] Worker exiting (pid: 28054)
+[2022-03-09 01:19:23 +0530] [28149] [INFO] Booting worker with pid: 28149
+[2022-03-09 01:19:23 +0530] [28055] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28055] [INFO] Worker exiting (pid: 28055)
+[2022-03-09 01:19:23 +0530] [28153] [INFO] Booting worker with pid: 28153
+[2022-03-09 01:19:23 +0530] [28058] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28058] [INFO] Worker exiting (pid: 28058)
+[2022-03-09 01:19:23 +0530] [28154] [INFO] Booting worker with pid: 28154
+[2022-03-09 01:19:23 +0530] [28062] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28061] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28061] [INFO] Worker exiting (pid: 28061)
+[2022-03-09 01:19:23 +0530] [28062] [INFO] Worker exiting (pid: 28062)
+[2022-03-09 01:19:23 +0530] [28059] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28059] [INFO] Worker exiting (pid: 28059)
+[2022-03-09 01:19:23 +0530] [28156] [INFO] Booting worker with pid: 28156
+[2022-03-09 01:19:23 +0530] [28068] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28068] [INFO] Worker exiting (pid: 28068)
+[2022-03-09 01:19:23 +0530] [28157] [INFO] Booting worker with pid: 28157
+[2022-03-09 01:19:23 +0530] [28158] [INFO] Booting worker with pid: 28158
+[2022-03-09 01:19:23 +0530] [28070] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:23 +0530] [28070] [INFO] Worker exiting (pid: 28070)
+[2022-03-09 01:19:24 +0530] [28071] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:24 +0530] [28071] [INFO] Worker exiting (pid: 28071)
+[2022-03-09 01:19:24 +0530] [28160] [INFO] Booting worker with pid: 28160
+[2022-03-09 01:19:24 +0530] [28162] [INFO] Booting worker with pid: 28162
+[2022-03-09 01:19:24 +0530] [28164] [INFO] Booting worker with pid: 28164
+[2022-03-09 01:19:31 +0530] [28157] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28157] [INFO] Worker exiting (pid: 28157)
+[2022-03-09 01:19:31 +0530] [28156] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28156] [INFO] Worker exiting (pid: 28156)
+[2022-03-09 01:19:31 +0530] [28177] [INFO] Booting worker with pid: 28177
+[2022-03-09 01:19:31 +0530] [28158] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28158] [INFO] Worker exiting (pid: 28158)
+[2022-03-09 01:19:31 +0530] [28178] [INFO] Booting worker with pid: 28178
+[2022-03-09 01:19:31 +0530] [28160] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28160] [INFO] Worker exiting (pid: 28160)
+[2022-03-09 01:19:31 +0530] [28179] [INFO] Booting worker with pid: 28179
+[2022-03-09 01:19:31 +0530] [28149] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28149] [INFO] Worker exiting (pid: 28149)
+[2022-03-09 01:19:31 +0530] [28162] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28162] [INFO] Worker exiting (pid: 28162)
+[2022-03-09 01:19:31 +0530] [28164] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28164] [INFO] Worker exiting (pid: 28164)
+[2022-03-09 01:19:31 +0530] [28181] [INFO] Booting worker with pid: 28181
+[2022-03-09 01:19:31 +0530] [28183] [INFO] Booting worker with pid: 28183
+[2022-03-09 01:19:31 +0530] [28185] [INFO] Booting worker with pid: 28185
+[2022-03-09 01:19:31 +0530] [28186] [INFO] Booting worker with pid: 28186
+[2022-03-09 01:19:31 +0530] [28153] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:31 +0530] [28153] [INFO] Worker exiting (pid: 28153)
+[2022-03-09 01:19:31 +0530] [28190] [INFO] Booting worker with pid: 28190
+[2022-03-09 01:19:32 +0530] [28154] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:19:32 +0530] [28154] [INFO] Worker exiting (pid: 28154)
+[2022-03-09 01:19:32 +0530] [28194] [INFO] Booting worker with pid: 28194
+[2022-03-09 01:20:05 +0530] [28178] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:05 +0530] [28178] [INFO] Worker exiting (pid: 28178)
+[2022-03-09 01:20:05 +0530] [28214] [INFO] Booting worker with pid: 28214
+[2022-03-09 01:20:05 +0530] [28179] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:05 +0530] [28179] [INFO] Worker exiting (pid: 28179)
+[2022-03-09 01:20:06 +0530] [28215] [INFO] Booting worker with pid: 28215
+[2022-03-09 01:20:06 +0530] [28183] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28183] [INFO] Worker exiting (pid: 28183)
+[2022-03-09 01:20:06 +0530] [28185] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28185] [INFO] Worker exiting (pid: 28185)
+[2022-03-09 01:20:06 +0530] [28181] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28181] [INFO] Worker exiting (pid: 28181)
+[2022-03-09 01:20:06 +0530] [28186] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28186] [INFO] Worker exiting (pid: 28186)
+[2022-03-09 01:20:06 +0530] [28219] [INFO] Booting worker with pid: 28219
+[2022-03-09 01:20:06 +0530] [28220] [INFO] Booting worker with pid: 28220
+[2022-03-09 01:20:06 +0530] [28190] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28190] [INFO] Worker exiting (pid: 28190)
+[2022-03-09 01:20:06 +0530] [28222] [INFO] Booting worker with pid: 28222
+[2022-03-09 01:20:06 +0530] [28194] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28194] [INFO] Worker exiting (pid: 28194)
+[2022-03-09 01:20:06 +0530] [28223] [INFO] Booting worker with pid: 28223
+[2022-03-09 01:20:06 +0530] [28224] [INFO] Booting worker with pid: 28224
+[2022-03-09 01:20:06 +0530] [28227] [INFO] Booting worker with pid: 28227
+[2022-03-09 01:20:06 +0530] [28177] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:20:06 +0530] [28177] [INFO] Worker exiting (pid: 28177)
+[2022-03-09 01:20:06 +0530] [28229] [INFO] Booting worker with pid: 28229
+[2022-03-09 01:21:50 +0530] [28229] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:50 +0530] [28229] [INFO] Worker exiting (pid: 28229)
+[2022-03-09 01:21:50 +0530] [28214] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:50 +0530] [28214] [INFO] Worker exiting (pid: 28214)
+[2022-03-09 01:21:50 +0530] [28322] [INFO] Booting worker with pid: 28322
+[2022-03-09 01:21:50 +0530] [28323] [INFO] Booting worker with pid: 28323
+[2022-03-09 01:21:50 +0530] [28215] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:50 +0530] [28215] [INFO] Worker exiting (pid: 28215)
+[2022-03-09 01:21:51 +0530] [28326] [INFO] Booting worker with pid: 28326
+[2022-03-09 01:21:51 +0530] [28219] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28219] [INFO] Worker exiting (pid: 28219)
+[2022-03-09 01:21:51 +0530] [28220] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28220] [INFO] Worker exiting (pid: 28220)
+[2022-03-09 01:21:51 +0530] [28223] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28223] [INFO] Worker exiting (pid: 28223)
+[2022-03-09 01:21:51 +0530] [28331] [INFO] Booting worker with pid: 28331
+[2022-03-09 01:21:51 +0530] [28222] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28222] [INFO] Worker exiting (pid: 28222)
+[2022-03-09 01:21:51 +0530] [28224] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28224] [INFO] Worker exiting (pid: 28224)
+[2022-03-09 01:21:51 +0530] [28332] [INFO] Booting worker with pid: 28332
+[2022-03-09 01:21:51 +0530] [28333] [INFO] Booting worker with pid: 28333
+[2022-03-09 01:21:51 +0530] [28227] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:21:51 +0530] [28227] [INFO] Worker exiting (pid: 28227)
+[2022-03-09 01:21:51 +0530] [28334] [INFO] Booting worker with pid: 28334
+[2022-03-09 01:21:51 +0530] [28335] [INFO] Booting worker with pid: 28335
+[2022-03-09 01:21:51 +0530] [28337] [INFO] Booting worker with pid: 28337
+[2022-03-09 01:22:10 +0530] [28331] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:10 +0530] [28331] [INFO] Worker exiting (pid: 28331)
+[2022-03-09 01:22:10 +0530] [28394] [INFO] Booting worker with pid: 28394
+[2022-03-09 01:22:11 +0530] [28332] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28332] [INFO] Worker exiting (pid: 28332)
+[2022-03-09 01:22:11 +0530] [28396] [INFO] Booting worker with pid: 28396
+[2022-03-09 01:22:11 +0530] [28333] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28333] [INFO] Worker exiting (pid: 28333)
+[2022-03-09 01:22:11 +0530] [28322] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28322] [INFO] Worker exiting (pid: 28322)
+[2022-03-09 01:22:11 +0530] [28323] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28323] [INFO] Worker exiting (pid: 28323)
+[2022-03-09 01:22:11 +0530] [28398] [INFO] Booting worker with pid: 28398
+[2022-03-09 01:22:11 +0530] [28335] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28335] [INFO] Worker exiting (pid: 28335)
+[2022-03-09 01:22:11 +0530] [28337] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28337] [INFO] Worker exiting (pid: 28337)
+[2022-03-09 01:22:11 +0530] [28334] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28334] [INFO] Worker exiting (pid: 28334)
+[2022-03-09 01:22:11 +0530] [28399] [INFO] Booting worker with pid: 28399
+[2022-03-09 01:22:11 +0530] [28326] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:11 +0530] [28326] [INFO] Worker exiting (pid: 28326)
+[2022-03-09 01:22:11 +0530] [28400] [INFO] Booting worker with pid: 28400
+[2022-03-09 01:22:11 +0530] [28402] [INFO] Booting worker with pid: 28402
+[2022-03-09 01:22:11 +0530] [28403] [INFO] Booting worker with pid: 28403
+[2022-03-09 01:22:11 +0530] [28405] [INFO] Booting worker with pid: 28405
+[2022-03-09 01:22:11 +0530] [28406] [INFO] Booting worker with pid: 28406
+[2022-03-09 01:22:45 +0530] [28398] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:45 +0530] [28398] [INFO] Worker exiting (pid: 28398)
+[2022-03-09 01:22:45 +0530] [28443] [INFO] Booting worker with pid: 28443
+[2022-03-09 01:22:45 +0530] [28399] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:45 +0530] [28402] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:45 +0530] [28399] [INFO] Worker exiting (pid: 28399)
+[2022-03-09 01:22:45 +0530] [28402] [INFO] Worker exiting (pid: 28402)
+[2022-03-09 01:22:45 +0530] [28400] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:45 +0530] [28400] [INFO] Worker exiting (pid: 28400)
+[2022-03-09 01:22:45 +0530] [28444] [INFO] Booting worker with pid: 28444
+[2022-03-09 01:22:45 +0530] [28445] [INFO] Booting worker with pid: 28445
+[2022-03-09 01:22:46 +0530] [28403] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:46 +0530] [28403] [INFO] Worker exiting (pid: 28403)
+[2022-03-09 01:22:46 +0530] [28406] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:46 +0530] [28406] [INFO] Worker exiting (pid: 28406)
+[2022-03-09 01:22:46 +0530] [28405] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:46 +0530] [28405] [INFO] Worker exiting (pid: 28405)
+[2022-03-09 01:22:46 +0530] [28448] [INFO] Booting worker with pid: 28448
+[2022-03-09 01:22:46 +0530] [28450] [INFO] Booting worker with pid: 28450
+[2022-03-09 01:22:46 +0530] [28394] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:46 +0530] [28394] [INFO] Worker exiting (pid: 28394)
+[2022-03-09 01:22:46 +0530] [28453] [INFO] Booting worker with pid: 28453
+[2022-03-09 01:22:46 +0530] [28452] [INFO] Booting worker with pid: 28452
+[2022-03-09 01:22:46 +0530] [28455] [INFO] Booting worker with pid: 28455
+[2022-03-09 01:22:46 +0530] [28396] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:22:46 +0530] [28396] [INFO] Worker exiting (pid: 28396)
+[2022-03-09 01:22:46 +0530] [28458] [INFO] Booting worker with pid: 28458
+[2022-03-09 01:26:20 +0530] [28445] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28445] [INFO] Worker exiting (pid: 28445)
+[2022-03-09 01:26:20 +0530] [28621] [INFO] Booting worker with pid: 28621
+[2022-03-09 01:26:20 +0530] [28448] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28448] [INFO] Worker exiting (pid: 28448)
+[2022-03-09 01:26:20 +0530] [28625] [INFO] Booting worker with pid: 28625
+[2022-03-09 01:26:20 +0530] [28452] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28452] [INFO] Worker exiting (pid: 28452)
+[2022-03-09 01:26:20 +0530] [28627] [INFO] Booting worker with pid: 28627
+[2022-03-09 01:26:20 +0530] [28450] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28450] [INFO] Worker exiting (pid: 28450)
+[2022-03-09 01:26:20 +0530] [28453] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28455] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:20 +0530] [28453] [INFO] Worker exiting (pid: 28453)
+[2022-03-09 01:26:20 +0530] [28455] [INFO] Worker exiting (pid: 28455)
+[2022-03-09 01:26:21 +0530] [28629] [INFO] Booting worker with pid: 28629
+[2022-03-09 01:26:21 +0530] [28458] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:21 +0530] [28458] [INFO] Worker exiting (pid: 28458)
+[2022-03-09 01:26:21 +0530] [28630] [INFO] Booting worker with pid: 28630
+[2022-03-09 01:26:21 +0530] [28632] [INFO] Booting worker with pid: 28632
+[2022-03-09 01:26:21 +0530] [28443] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:21 +0530] [28443] [INFO] Worker exiting (pid: 28443)
+[2022-03-09 01:26:21 +0530] [28633] [INFO] Booting worker with pid: 28633
+[2022-03-09 01:26:21 +0530] [28635] [INFO] Booting worker with pid: 28635
+[2022-03-09 01:26:21 +0530] [28444] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:26:21 +0530] [28444] [INFO] Worker exiting (pid: 28444)
+[2022-03-09 01:26:21 +0530] [28638] [INFO] Booting worker with pid: 28638
+[2022-03-09 01:26:45 +0530] [28621] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:45 +0530] [28621] [INFO] Worker exiting (pid: 28621)
+[2022-03-09 01:26:46 +0530] [28667] [INFO] Booting worker with pid: 28667
+[2022-03-09 01:26:46 +0530] [28625] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28625] [INFO] Worker exiting (pid: 28625)
+[2022-03-09 01:26:46 +0530] [28669] [INFO] Booting worker with pid: 28669
+[2022-03-09 01:26:46 +0530] [28627] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28627] [INFO] Worker exiting (pid: 28627)
+[2022-03-09 01:26:46 +0530] [28672] [INFO] Booting worker with pid: 28672
+[2022-03-09 01:26:46 +0530] [28629] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28629] [INFO] Worker exiting (pid: 28629)
+[2022-03-09 01:26:46 +0530] [28674] [INFO] Booting worker with pid: 28674
+[2022-03-09 01:26:46 +0530] [28630] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28630] [INFO] Worker exiting (pid: 28630)
+[2022-03-09 01:26:46 +0530] [28676] [INFO] Booting worker with pid: 28676
+[2022-03-09 01:26:46 +0530] [28632] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28632] [INFO] Worker exiting (pid: 28632)
+[2022-03-09 01:26:46 +0530] [28633] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28633] [INFO] Worker exiting (pid: 28633)
+[2022-03-09 01:26:46 +0530] [28635] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28635] [INFO] Worker exiting (pid: 28635)
+[2022-03-09 01:26:46 +0530] [28678] [INFO] Booting worker with pid: 28678
+[2022-03-09 01:26:46 +0530] [28679] [INFO] Booting worker with pid: 28679
+[2022-03-09 01:26:46 +0530] [28638] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:26:46 +0530] [28638] [INFO] Worker exiting (pid: 28638)
+[2022-03-09 01:26:46 +0530] [28680] [INFO] Booting worker with pid: 28680
+[2022-03-09 01:26:46 +0530] [28682] [INFO] Booting worker with pid: 28682
+[2022-03-09 01:27:25 +0530] [28669] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:25 +0530] [28669] [INFO] Worker exiting (pid: 28669)
+[2022-03-09 01:27:25 +0530] [28859] [INFO] Booting worker with pid: 28859
+[2022-03-09 01:27:25 +0530] [28672] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:25 +0530] [28672] [INFO] Worker exiting (pid: 28672)
+[2022-03-09 01:27:25 +0530] [28862] [INFO] Booting worker with pid: 28862
+[2022-03-09 01:27:25 +0530] [28674] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:25 +0530] [28674] [INFO] Worker exiting (pid: 28674)
+[2022-03-09 01:27:26 +0530] [28864] [INFO] Booting worker with pid: 28864
+[2022-03-09 01:27:26 +0530] [28676] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28676] [INFO] Worker exiting (pid: 28676)
+[2022-03-09 01:27:26 +0530] [28678] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28678] [INFO] Worker exiting (pid: 28678)
+[2022-03-09 01:27:26 +0530] [28867] [INFO] Booting worker with pid: 28867
+[2022-03-09 01:27:26 +0530] [28679] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28679] [INFO] Worker exiting (pid: 28679)
+[2022-03-09 01:27:26 +0530] [28680] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28680] [INFO] Worker exiting (pid: 28680)
+[2022-03-09 01:27:26 +0530] [28682] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28682] [INFO] Worker exiting (pid: 28682)
+[2022-03-09 01:27:26 +0530] [28870] [INFO] Booting worker with pid: 28870
+[2022-03-09 01:27:26 +0530] [28667] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/app.py modified
+[2022-03-09 01:27:26 +0530] [28667] [INFO] Worker exiting (pid: 28667)
+[2022-03-09 01:27:26 +0530] [28871] [INFO] Booting worker with pid: 28871
+[2022-03-09 01:27:26 +0530] [28872] [INFO] Booting worker with pid: 28872
+[2022-03-09 01:27:26 +0530] [28873] [INFO] Booting worker with pid: 28873
+[2022-03-09 01:27:26 +0530] [28875] [INFO] Booting worker with pid: 28875
+[2022-03-09 01:27:44 +0530] [28862] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28862] [INFO] Worker exiting (pid: 28862)
+[2022-03-09 01:27:44 +0530] [28944] [INFO] Booting worker with pid: 28944
+[2022-03-09 01:27:44 +0530] [28864] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28864] [INFO] Worker exiting (pid: 28864)
+[2022-03-09 01:27:44 +0530] [28948] [INFO] Booting worker with pid: 28948
+[2022-03-09 01:27:44 +0530] [28867] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28867] [INFO] Worker exiting (pid: 28867)
+[2022-03-09 01:27:44 +0530] [28870] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28870] [INFO] Worker exiting (pid: 28870)
+[2022-03-09 01:27:44 +0530] [28951] [INFO] Booting worker with pid: 28951
+[2022-03-09 01:27:44 +0530] [28871] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28871] [INFO] Worker exiting (pid: 28871)
+[2022-03-09 01:27:44 +0530] [28952] [INFO] Booting worker with pid: 28952
+[2022-03-09 01:27:44 +0530] [28873] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28873] [INFO] Worker exiting (pid: 28873)
+[2022-03-09 01:27:44 +0530] [28872] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28872] [INFO] Worker exiting (pid: 28872)
+[2022-03-09 01:27:44 +0530] [28875] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:44 +0530] [28875] [INFO] Worker exiting (pid: 28875)
+[2022-03-09 01:27:45 +0530] [28859] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:27:45 +0530] [28859] [INFO] Worker exiting (pid: 28859)
+[2022-03-09 01:27:45 +0530] [28954] [INFO] Booting worker with pid: 28954
+[2022-03-09 01:27:45 +0530] [28956] [INFO] Booting worker with pid: 28956
+[2022-03-09 01:27:45 +0530] [28959] [INFO] Booting worker with pid: 28959
+[2022-03-09 01:27:45 +0530] [28960] [INFO] Booting worker with pid: 28960
+[2022-03-09 01:27:45 +0530] [28962] [INFO] Booting worker with pid: 28962
+[2022-03-09 01:30:47 +0530] [28952] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28952] [INFO] Worker exiting (pid: 28952)
+[2022-03-09 01:30:47 +0530] [28951] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28951] [INFO] Worker exiting (pid: 28951)
+[2022-03-09 01:30:47 +0530] [28954] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28954] [INFO] Worker exiting (pid: 28954)
+[2022-03-09 01:30:47 +0530] [29242] [INFO] Booting worker with pid: 29242
+[2022-03-09 01:30:47 +0530] [29243] [INFO] Booting worker with pid: 29243
+[2022-03-09 01:30:47 +0530] [28956] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28956] [INFO] Worker exiting (pid: 28956)
+[2022-03-09 01:30:47 +0530] [28944] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28944] [INFO] Worker exiting (pid: 28944)
+[2022-03-09 01:30:47 +0530] [28959] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28959] [INFO] Worker exiting (pid: 28959)
+[2022-03-09 01:30:47 +0530] [29244] [INFO] Booting worker with pid: 29244
+[2022-03-09 01:30:47 +0530] [28962] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28962] [INFO] Worker exiting (pid: 28962)
+[2022-03-09 01:30:47 +0530] [29245] [INFO] Booting worker with pid: 29245
+[2022-03-09 01:30:47 +0530] [28960] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28960] [INFO] Worker exiting (pid: 28960)
+[2022-03-09 01:30:47 +0530] [29246] [INFO] Booting worker with pid: 29246
+[2022-03-09 01:30:47 +0530] [28948] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:30:47 +0530] [28948] [INFO] Worker exiting (pid: 28948)
+[2022-03-09 01:30:47 +0530] [29249] [INFO] Booting worker with pid: 29249
+[2022-03-09 01:30:47 +0530] [29251] [INFO] Booting worker with pid: 29251
+[2022-03-09 01:30:47 +0530] [29253] [INFO] Booting worker with pid: 29253
+[2022-03-09 01:30:47 +0530] [29255] [INFO] Booting worker with pid: 29255
+[2022-03-09 01:32:20 +0530] [29251] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29251] [INFO] Worker exiting (pid: 29251)
+[2022-03-09 01:32:20 +0530] [29253] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29253] [INFO] Worker exiting (pid: 29253)
+[2022-03-09 01:32:20 +0530] [29451] [INFO] Booting worker with pid: 29451
+[2022-03-09 01:32:20 +0530] [29452] [INFO] Booting worker with pid: 29452
+[2022-03-09 01:32:20 +0530] [29242] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29242] [INFO] Worker exiting (pid: 29242)
+[2022-03-09 01:32:20 +0530] [29453] [INFO] Booting worker with pid: 29453
+[2022-03-09 01:32:20 +0530] [29243] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29243] [INFO] Worker exiting (pid: 29243)
+[2022-03-09 01:32:20 +0530] [29459] [INFO] Booting worker with pid: 29459
+[2022-03-09 01:32:20 +0530] [29246] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29246] [INFO] Worker exiting (pid: 29246)
+[2022-03-09 01:32:20 +0530] [29463] [INFO] Booting worker with pid: 29463
+[2022-03-09 01:32:20 +0530] [29245] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29245] [INFO] Worker exiting (pid: 29245)
+[2022-03-09 01:32:20 +0530] [29244] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29244] [INFO] Worker exiting (pid: 29244)
+[2022-03-09 01:32:20 +0530] [29255] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:20 +0530] [29255] [INFO] Worker exiting (pid: 29255)
+[2022-03-09 01:32:21 +0530] [29249] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:21 +0530] [29249] [INFO] Worker exiting (pid: 29249)
+[2022-03-09 01:32:21 +0530] [29464] [INFO] Booting worker with pid: 29464
+[2022-03-09 01:32:21 +0530] [29466] [INFO] Booting worker with pid: 29466
+[2022-03-09 01:32:21 +0530] [29468] [INFO] Booting worker with pid: 29468
+[2022-03-09 01:32:21 +0530] [29469] [INFO] Booting worker with pid: 29469
+[2022-03-09 01:32:46 +0530] [29452] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29452] [INFO] Worker exiting (pid: 29452)
+[2022-03-09 01:32:46 +0530] [29559] [INFO] Booting worker with pid: 29559
+[2022-03-09 01:32:46 +0530] [29466] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29466] [INFO] Worker exiting (pid: 29466)
+[2022-03-09 01:32:46 +0530] [29464] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29464] [INFO] Worker exiting (pid: 29464)
+[2022-03-09 01:32:46 +0530] [29453] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29453] [INFO] Worker exiting (pid: 29453)
+[2022-03-09 01:32:46 +0530] [29469] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29469] [INFO] Worker exiting (pid: 29469)
+[2022-03-09 01:32:46 +0530] [29468] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29468] [INFO] Worker exiting (pid: 29468)
+[2022-03-09 01:32:46 +0530] [29561] [INFO] Booting worker with pid: 29561
+[2022-03-09 01:32:46 +0530] [29563] [INFO] Booting worker with pid: 29563
+[2022-03-09 01:32:46 +0530] [29459] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:46 +0530] [29459] [INFO] Worker exiting (pid: 29459)
+[2022-03-09 01:32:46 +0530] [29564] [INFO] Booting worker with pid: 29564
+[2022-03-09 01:32:46 +0530] [29565] [INFO] Booting worker with pid: 29565
+[2022-03-09 01:32:47 +0530] [29569] [INFO] Booting worker with pid: 29569
+[2022-03-09 01:32:47 +0530] [29570] [INFO] Booting worker with pid: 29570
+[2022-03-09 01:32:47 +0530] [29463] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:47 +0530] [29463] [INFO] Worker exiting (pid: 29463)
+[2022-03-09 01:32:47 +0530] [29574] [INFO] Booting worker with pid: 29574
+[2022-03-09 01:32:47 +0530] [29451] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:32:47 +0530] [29451] [INFO] Worker exiting (pid: 29451)
+[2022-03-09 01:32:47 +0530] [29589] [INFO] Booting worker with pid: 29589
+[2022-03-09 01:33:32 +0530] [29559] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29559] [INFO] Worker exiting (pid: 29559)
+[2022-03-09 01:33:32 +0530] [29675] [INFO] Booting worker with pid: 29675
+[2022-03-09 01:33:32 +0530] [29563] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29563] [INFO] Worker exiting (pid: 29563)
+[2022-03-09 01:33:32 +0530] [29676] [INFO] Booting worker with pid: 29676
+[2022-03-09 01:33:32 +0530] [29561] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29561] [INFO] Worker exiting (pid: 29561)
+[2022-03-09 01:33:32 +0530] [29564] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29564] [INFO] Worker exiting (pid: 29564)
+[2022-03-09 01:33:32 +0530] [29679] [INFO] Booting worker with pid: 29679
+[2022-03-09 01:33:32 +0530] [29565] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29565] [INFO] Worker exiting (pid: 29565)
+[2022-03-09 01:33:32 +0530] [29569] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29569] [INFO] Worker exiting (pid: 29569)
+[2022-03-09 01:33:32 +0530] [29570] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29570] [INFO] Worker exiting (pid: 29570)
+[2022-03-09 01:33:32 +0530] [29681] [INFO] Booting worker with pid: 29681
+[2022-03-09 01:33:32 +0530] [29574] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29574] [INFO] Worker exiting (pid: 29574)
+[2022-03-09 01:33:32 +0530] [29682] [INFO] Booting worker with pid: 29682
+[2022-03-09 01:33:32 +0530] [29685] [INFO] Booting worker with pid: 29685
+[2022-03-09 01:33:32 +0530] [29589] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:33:32 +0530] [29589] [INFO] Worker exiting (pid: 29589)
+[2022-03-09 01:33:33 +0530] [29686] [INFO] Booting worker with pid: 29686
+[2022-03-09 01:33:33 +0530] [29688] [INFO] Booting worker with pid: 29688
+[2022-03-09 01:33:33 +0530] [29689] [INFO] Booting worker with pid: 29689
+[2022-03-09 01:35:04 +0530] [29686] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:04 +0530] [29686] [INFO] Worker exiting (pid: 29686)
+[2022-03-09 01:35:05 +0530] [29685] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29685] [INFO] Worker exiting (pid: 29685)
+[2022-03-09 01:35:05 +0530] [29816] [INFO] Booting worker with pid: 29816
+[2022-03-09 01:35:05 +0530] [29688] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29688] [INFO] Worker exiting (pid: 29688)
+[2022-03-09 01:35:05 +0530] [29675] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29675] [INFO] Worker exiting (pid: 29675)
+[2022-03-09 01:35:05 +0530] [29689] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29689] [INFO] Worker exiting (pid: 29689)
+[2022-03-09 01:35:05 +0530] [29817] [INFO] Booting worker with pid: 29817
+[2022-03-09 01:35:05 +0530] [29818] [INFO] Booting worker with pid: 29818
+[2022-03-09 01:35:05 +0530] [29820] [INFO] Booting worker with pid: 29820
+[2022-03-09 01:35:05 +0530] [29822] [INFO] Booting worker with pid: 29822
+[2022-03-09 01:35:05 +0530] [29676] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29676] [INFO] Worker exiting (pid: 29676)
+[2022-03-09 01:35:05 +0530] [29830] [INFO] Booting worker with pid: 29830
+[2022-03-09 01:35:05 +0530] [29682] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29682] [INFO] Worker exiting (pid: 29682)
+[2022-03-09 01:35:05 +0530] [29679] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29679] [INFO] Worker exiting (pid: 29679)
+[2022-03-09 01:35:05 +0530] [29681] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:05 +0530] [29681] [INFO] Worker exiting (pid: 29681)
+[2022-03-09 01:35:05 +0530] [29833] [INFO] Booting worker with pid: 29833
+[2022-03-09 01:35:06 +0530] [29834] [INFO] Booting worker with pid: 29834
+[2022-03-09 01:35:06 +0530] [29835] [INFO] Booting worker with pid: 29835
+[2022-03-09 01:35:40 +0530] [29822] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:40 +0530] [29822] [INFO] Worker exiting (pid: 29822)
+[2022-03-09 01:35:40 +0530] [29901] [INFO] Booting worker with pid: 29901
+[2022-03-09 01:35:41 +0530] [29830] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29830] [INFO] Worker exiting (pid: 29830)
+[2022-03-09 01:35:41 +0530] [29904] [INFO] Booting worker with pid: 29904
+[2022-03-09 01:35:41 +0530] [29833] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29833] [INFO] Worker exiting (pid: 29833)
+[2022-03-09 01:35:41 +0530] [29909] [INFO] Booting worker with pid: 29909
+[2022-03-09 01:35:41 +0530] [29834] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29834] [INFO] Worker exiting (pid: 29834)
+[2022-03-09 01:35:41 +0530] [29835] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29835] [INFO] Worker exiting (pid: 29835)
+[2022-03-09 01:35:41 +0530] [29816] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29816] [INFO] Worker exiting (pid: 29816)
+[2022-03-09 01:35:41 +0530] [29911] [INFO] Booting worker with pid: 29911
+[2022-03-09 01:35:41 +0530] [29912] [INFO] Booting worker with pid: 29912
+[2022-03-09 01:35:41 +0530] [29914] [INFO] Booting worker with pid: 29914
+[2022-03-09 01:35:41 +0530] [29817] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29817] [INFO] Worker exiting (pid: 29817)
+[2022-03-09 01:35:41 +0530] [29818] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29818] [INFO] Worker exiting (pid: 29818)
+[2022-03-09 01:35:41 +0530] [29820] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:35:41 +0530] [29820] [INFO] Worker exiting (pid: 29820)
+[2022-03-09 01:35:41 +0530] [29915] [INFO] Booting worker with pid: 29915
+[2022-03-09 01:35:41 +0530] [29919] [INFO] Booting worker with pid: 29919
+[2022-03-09 01:35:41 +0530] [29920] [INFO] Booting worker with pid: 29920
+[2022-03-09 01:36:20 +0530] [29911] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29911] [INFO] Worker exiting (pid: 29911)
+[2022-03-09 01:36:20 +0530] [29912] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29912] [INFO] Worker exiting (pid: 29912)
+[2022-03-09 01:36:20 +0530] [29914] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29914] [INFO] Worker exiting (pid: 29914)
+[2022-03-09 01:36:20 +0530] [30037] [INFO] Booting worker with pid: 30037
+[2022-03-09 01:36:20 +0530] [30038] [INFO] Booting worker with pid: 30038
+[2022-03-09 01:36:20 +0530] [30039] [INFO] Booting worker with pid: 30039
+[2022-03-09 01:36:20 +0530] [29915] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29919] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29915] [INFO] Worker exiting (pid: 29915)
+[2022-03-09 01:36:20 +0530] [29919] [INFO] Worker exiting (pid: 29919)
+[2022-03-09 01:36:20 +0530] [29920] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29920] [INFO] Worker exiting (pid: 29920)
+[2022-03-09 01:36:20 +0530] [29901] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29901] [INFO] Worker exiting (pid: 29901)
+[2022-03-09 01:36:20 +0530] [30043] [INFO] Booting worker with pid: 30043
+[2022-03-09 01:36:20 +0530] [29904] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29904] [INFO] Worker exiting (pid: 29904)
+[2022-03-09 01:36:20 +0530] [30045] [INFO] Booting worker with pid: 30045
+[2022-03-09 01:36:20 +0530] [30046] [INFO] Booting worker with pid: 30046
+[2022-03-09 01:36:20 +0530] [30049] [INFO] Booting worker with pid: 30049
+[2022-03-09 01:36:20 +0530] [30050] [INFO] Booting worker with pid: 30050
+[2022-03-09 01:36:20 +0530] [29909] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:36:20 +0530] [29909] [INFO] Worker exiting (pid: 29909)
+[2022-03-09 01:36:20 +0530] [30065] [INFO] Booting worker with pid: 30065
+[2022-03-09 01:36:49 +0530] [30038] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:49 +0530] [30038] [INFO] Worker exiting (pid: 30038)
+[2022-03-09 01:36:49 +0530] [30129] [INFO] Booting worker with pid: 30129
+[2022-03-09 01:36:49 +0530] [30039] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:49 +0530] [30039] [INFO] Worker exiting (pid: 30039)
+[2022-03-09 01:36:49 +0530] [30037] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:49 +0530] [30037] [INFO] Worker exiting (pid: 30037)
+[2022-03-09 01:36:50 +0530] [30135] [INFO] Booting worker with pid: 30135
+[2022-03-09 01:36:50 +0530] [30043] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30043] [INFO] Worker exiting (pid: 30043)
+[2022-03-09 01:36:50 +0530] [30045] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30045] [INFO] Worker exiting (pid: 30045)
+[2022-03-09 01:36:50 +0530] [30046] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30046] [INFO] Worker exiting (pid: 30046)
+[2022-03-09 01:36:50 +0530] [30136] [INFO] Booting worker with pid: 30136
+[2022-03-09 01:36:50 +0530] [30049] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30049] [INFO] Worker exiting (pid: 30049)
+[2022-03-09 01:36:50 +0530] [30137] [INFO] Booting worker with pid: 30137
+[2022-03-09 01:36:50 +0530] [30050] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30050] [INFO] Worker exiting (pid: 30050)
+[2022-03-09 01:36:50 +0530] [30138] [INFO] Booting worker with pid: 30138
+[2022-03-09 01:36:50 +0530] [30065] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/api/routes/endpoints/login.py modified
+[2022-03-09 01:36:50 +0530] [30065] [INFO] Worker exiting (pid: 30065)
+[2022-03-09 01:36:50 +0530] [30139] [INFO] Booting worker with pid: 30139
+[2022-03-09 01:36:50 +0530] [30140] [INFO] Booting worker with pid: 30140
+[2022-03-09 01:36:50 +0530] [30141] [INFO] Booting worker with pid: 30141
+[2022-03-09 01:36:50 +0530] [30142] [INFO] Booting worker with pid: 30142
+[2022-03-09 01:41:13 +0530] [30135] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30135] [INFO] Worker exiting (pid: 30135)
+[2022-03-09 01:41:13 +0530] [30352] [INFO] Booting worker with pid: 30352
+[2022-03-09 01:41:13 +0530] [30137] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30137] [INFO] Worker exiting (pid: 30137)
+[2022-03-09 01:41:13 +0530] [30136] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30138] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30138] [INFO] Worker exiting (pid: 30138)
+[2022-03-09 01:41:13 +0530] [30136] [INFO] Worker exiting (pid: 30136)
+[2022-03-09 01:41:13 +0530] [30140] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30140] [INFO] Worker exiting (pid: 30140)
+[2022-03-09 01:41:13 +0530] [30139] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30139] [INFO] Worker exiting (pid: 30139)
+[2022-03-09 01:41:13 +0530] [30142] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30142] [INFO] Worker exiting (pid: 30142)
+[2022-03-09 01:41:13 +0530] [30141] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30141] [INFO] Worker exiting (pid: 30141)
+[2022-03-09 01:41:13 +0530] [30354] [INFO] Booting worker with pid: 30354
+[2022-03-09 01:41:13 +0530] [30355] [INFO] Booting worker with pid: 30355
+[2022-03-09 01:41:13 +0530] [30129] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/customer/customer_code.py modified
+[2022-03-09 01:41:13 +0530] [30129] [INFO] Worker exiting (pid: 30129)
+[2022-03-09 01:41:13 +0530] [30357] [INFO] Booting worker with pid: 30357
+[2022-03-09 01:41:13 +0530] [30358] [INFO] Booting worker with pid: 30358
+[2022-03-09 01:41:13 +0530] [30359] [INFO] Booting worker with pid: 30359
+[2022-03-09 01:41:13 +0530] [30361] [INFO] Booting worker with pid: 30361
+[2022-03-09 01:41:13 +0530] [30364] [INFO] Booting worker with pid: 30364
+[2022-03-09 01:41:13 +0530] [30365] [INFO] Booting worker with pid: 30365
+[2022-03-09 01:42:30 +0530] [30352] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:30 +0530] [30352] [INFO] Worker exiting (pid: 30352)
+[2022-03-09 01:42:30 +0530] [30455] [INFO] Booting worker with pid: 30455
+[2022-03-09 01:42:31 +0530] [30357] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30357] [INFO] Worker exiting (pid: 30357)
+[2022-03-09 01:42:31 +0530] [30355] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30354] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30355] [INFO] Worker exiting (pid: 30355)
+[2022-03-09 01:42:31 +0530] [30354] [INFO] Worker exiting (pid: 30354)
+[2022-03-09 01:42:31 +0530] [30358] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30358] [INFO] Worker exiting (pid: 30358)
+[2022-03-09 01:42:31 +0530] [30460] [INFO] Booting worker with pid: 30460
+[2022-03-09 01:42:31 +0530] [30461] [INFO] Booting worker with pid: 30461
+[2022-03-09 01:42:31 +0530] [30359] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30359] [INFO] Worker exiting (pid: 30359)
+[2022-03-09 01:42:31 +0530] [30361] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30361] [INFO] Worker exiting (pid: 30361)
+[2022-03-09 01:42:31 +0530] [30463] [INFO] Booting worker with pid: 30463
+[2022-03-09 01:42:31 +0530] [30464] [INFO] Booting worker with pid: 30464
+[2022-03-09 01:42:31 +0530] [30364] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30364] [INFO] Worker exiting (pid: 30364)
+[2022-03-09 01:42:31 +0530] [30365] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/categories/categories_code.py modified
+[2022-03-09 01:42:31 +0530] [30365] [INFO] Worker exiting (pid: 30365)
+[2022-03-09 01:42:31 +0530] [30466] [INFO] Booting worker with pid: 30466
+[2022-03-09 01:42:31 +0530] [30467] [INFO] Booting worker with pid: 30467
+[2022-03-09 01:42:31 +0530] [30468] [INFO] Booting worker with pid: 30468
+[2022-03-09 01:42:31 +0530] [30471] [INFO] Booting worker with pid: 30471
+[2022-03-09 01:43:23 +0530] [30463] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30463] [INFO] Worker exiting (pid: 30463)
+[2022-03-09 01:43:23 +0530] [30460] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30460] [INFO] Worker exiting (pid: 30460)
+[2022-03-09 01:43:23 +0530] [30553] [INFO] Booting worker with pid: 30553
+[2022-03-09 01:43:23 +0530] [30554] [INFO] Booting worker with pid: 30554
+[2022-03-09 01:43:23 +0530] [30455] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30455] [INFO] Worker exiting (pid: 30455)
+[2022-03-09 01:43:23 +0530] [30466] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30466] [INFO] Worker exiting (pid: 30466)
+[2022-03-09 01:43:23 +0530] [30464] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30464] [INFO] Worker exiting (pid: 30464)
+[2022-03-09 01:43:23 +0530] [30461] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30461] [INFO] Worker exiting (pid: 30461)
+[2022-03-09 01:43:23 +0530] [30467] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30467] [INFO] Worker exiting (pid: 30467)
+[2022-03-09 01:43:23 +0530] [30468] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30468] [INFO] Worker exiting (pid: 30468)
+[2022-03-09 01:43:23 +0530] [30471] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/login/customer_entry.py modified
+[2022-03-09 01:43:23 +0530] [30471] [INFO] Worker exiting (pid: 30471)
+[2022-03-09 01:43:23 +0530] [30556] [INFO] Booting worker with pid: 30556
+[2022-03-09 01:43:23 +0530] [30558] [INFO] Booting worker with pid: 30558
+[2022-03-09 01:43:23 +0530] [30559] [INFO] Booting worker with pid: 30559
+[2022-03-09 01:43:23 +0530] [30560] [INFO] Booting worker with pid: 30560
+[2022-03-09 01:43:23 +0530] [30561] [INFO] Booting worker with pid: 30561
+[2022-03-09 01:43:23 +0530] [30565] [INFO] Booting worker with pid: 30565
+[2022-03-09 01:43:23 +0530] [30566] [INFO] Booting worker with pid: 30566
+[2022-03-09 01:44:18 +0530] [30565] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:18 +0530] [30565] [INFO] Worker exiting (pid: 30565)
+[2022-03-09 01:44:18 +0530] [30561] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:18 +0530] [30561] [INFO] Worker exiting (pid: 30561)
+[2022-03-09 01:44:18 +0530] [30566] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:18 +0530] [30566] [INFO] Worker exiting (pid: 30566)
+[2022-03-09 01:44:18 +0530] [30560] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:18 +0530] [30560] [INFO] Worker exiting (pid: 30560)
+[2022-03-09 01:44:18 +0530] [30638] [INFO] Booting worker with pid: 30638
+[2022-03-09 01:44:18 +0530] [30639] [INFO] Booting worker with pid: 30639
+[2022-03-09 01:44:18 +0530] [30640] [INFO] Booting worker with pid: 30640
+[2022-03-09 01:44:18 +0530] [30643] [INFO] Booting worker with pid: 30643
+[2022-03-09 01:44:19 +0530] [30554] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:19 +0530] [30554] [INFO] Worker exiting (pid: 30554)
+[2022-03-09 01:44:19 +0530] [30553] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:19 +0530] [30553] [INFO] Worker exiting (pid: 30553)
+[2022-03-09 01:44:19 +0530] [30649] [INFO] Booting worker with pid: 30649
+[2022-03-09 01:44:19 +0530] [30556] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:19 +0530] [30556] [INFO] Worker exiting (pid: 30556)
+[2022-03-09 01:44:19 +0530] [30651] [INFO] Booting worker with pid: 30651
+[2022-03-09 01:44:19 +0530] [30653] [INFO] Booting worker with pid: 30653
+[2022-03-09 01:44:19 +0530] [30559] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:19 +0530] [30559] [INFO] Worker exiting (pid: 30559)
+[2022-03-09 01:44:19 +0530] [30558] [INFO] Worker reloading: /home/info/Desktop/Training-pymysql/src/services/subcategory/subcategorycode.py modified
+[2022-03-09 01:44:19 +0530] [30558] [INFO] Worker exiting (pid: 30558)
+[2022-03-09 01:44:19 +0530] [30654] [INFO] Booting worker with pid: 30654
+[2022-03-09 01:44:19 +0530] [30658] [INFO] Booting worker with pid: 30658
+[2022-03-09 01:49:19 +0530] [30638] [INFO] Worker exiting (pid: 30638)
+[2022-03-09 01:49:19 +0530] [30639] [INFO] Worker exiting (pid: 30639)
+[2022-03-09 01:49:19 +0530] [9153] [INFO] Handling signal: term
+[2022-03-09 01:49:19 +0530] [30649] [INFO] Worker exiting (pid: 30649)
+[2022-03-09 01:49:19 +0530] [30640] [INFO] Worker exiting (pid: 30640)
+[2022-03-09 01:49:19 +0530] [30658] [INFO] Worker exiting (pid: 30658)
+[2022-03-09 01:49:19 +0530] [30654] [INFO] Worker exiting (pid: 30654)
+[2022-03-09 01:49:19 +0530] [30653] [INFO] Worker exiting (pid: 30653)
+[2022-03-09 01:49:19 +0530] [30651] [INFO] Worker exiting (pid: 30651)
+[2022-03-09 01:49:19 +0530] [30643] [INFO] Worker exiting (pid: 30643)
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30639 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30649 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30653 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30638 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30643 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30651 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30658 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [WARNING] Worker with pid 30640 was terminated due to signal 15
+[2022-03-09 01:49:19 +0530] [9153] [INFO] Shutting down: Master
+[2022-03-09 10:14:28 +0530] [806] [INFO] Starting gunicorn 20.1.0
+[2022-03-09 10:14:28 +0530] [806] [INFO] Listening at: unix:app.sock (806)
+[2022-03-09 10:14:28 +0530] [806] [INFO] Using worker: sync
+[2022-03-09 10:14:28 +0530] [982] [INFO] Booting worker with pid: 982
+[2022-03-09 10:14:28 +0530] [983] [INFO] Booting worker with pid: 983
+[2022-03-09 10:14:28 +0530] [984] [INFO] Booting worker with pid: 984
+[2022-03-09 10:14:28 +0530] [985] [INFO] Booting worker with pid: 985
+[2022-03-09 10:14:28 +0530] [986] [INFO] Booting worker with pid: 986
+[2022-03-09 10:14:28 +0530] [987] [INFO] Booting worker with pid: 987
+[2022-03-09 10:14:29 +0530] [988] [INFO] Booting worker with pid: 988
+[2022-03-09 10:14:29 +0530] [989] [INFO] Booting worker with pid: 989
+[2022-03-09 10:14:29 +0530] [990] [INFO] Booting worker with pid: 990

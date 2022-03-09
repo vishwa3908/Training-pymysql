@@ -1,0 +1,6 @@
+405 = An HTTP 405 Error indicates that a web browser has requested access to one of your pages
+        , and your web server has recognized the request. 
+        However, the server has rejected the specific HTTP method it's using.
+         As a result, your web browser can't access the requested web page.
+
+200 = Indicates that the request has succeeded

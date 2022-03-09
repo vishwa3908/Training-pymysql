@@ -1,5 +1,4 @@
 from flask import request,jsonify
-import pymysql
 from Config.connection import connect_mysql
 
 
@@ -15,9 +14,9 @@ class Categories:
             for i in range(len(result)):
                 data = {"Category":result[i]}
                 category.append(data)
-            return {"Categories":category}
+            return {"Categories":category},200
         else:
-            return jsonify("Empty")
+            return jsonify("Empty"),200
     
     def add_category():
         conn = connect_mysql()
@@ -31,9 +30,9 @@ class Categories:
             mycursor.execute(category_add_query,category_add_value)
             mycursor.execute('''CREATE TABLE IF NOT EXISTS {}(ID INT AUTO_INCREMENT PRIMARY KEY,ITEMS VARCHAR(20),PRICE INT )'''.format(category_name))
             conn.commit()
-            return "{} Category added".format(category_name)
+            return jsonify("{} Category added".format(category_name)),201
         else:
-            return "invalid details"
+            return jsonify("invalid details"),404
     
     def deletecategory():
         conn = connect_mysql()
@@ -53,11 +52,11 @@ class Categories:
                 drop_query = "DROP TABLE IF EXISTS {}".format(category_name)
                 mycursor.execute(drop_query)
                 conn.commit()
-                return 'ok'
+                return jsonify('ok'),204
             else:
-                return '404'
+                return jsonify('404'),404
         else:
-            return '404'
+            return jsonify('404'),404
                 
             
             

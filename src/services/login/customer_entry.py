@@ -31,9 +31,9 @@ class Login:
             result = mycursor.fetchall()
             if result:
                 data = {"Id":result[0][0],"Name":result[0][1],"Age":result[0][2],"Gender":result[0][3]}
-                return jsonify(data)
+                return jsonify(data),200
             else:
-                return jsonify("No record found")
+                return jsonify("No record found"),404
         else:
             return jsonify("enter all details")
 
@@ -53,7 +53,6 @@ class Login:
                 mycursor.execute("SELECT ID FROM customers")
                 result = mycursor.fetchall()
                 result = list(result)
-                print(result)
                 for i in result:
                     if id==i[0]:
                         return jsonify("Enter different id")
@@ -61,29 +60,31 @@ class Login:
 
                     mycursor.execute("INSERT INTO customers(ID,NAME,AGE,GENDER,PASSWORD)VALUES(%s,%s,%s,%s,%s)",(id,name,age,gender,password))
                     conn.commit()
-                    return jsonify({"id":id,'name':name,"age":age,"gender":gender})
+                    return jsonify({"id":id,"name":name,"age":age,"gender":gender}),201
             else:
                 return jsonify("enter all details")
+                
     
     def delete_my_account():
         conn = connect_mysql()
         mycursor = conn.cursor()
+        id = request.json["id"]
         name = request.json["name"].capitalize()
         password = request.json["password"]
-        if name and password:
-            value = (name,password,)
-            query = '''SELECT * FROM customers WHERE NAME = %s AND PASSWORD = %s'''
+        if name and password and id:
+            value = (id,name,password,)
+            query = '''SELECT * FROM customers WHERE ID = %s AND NAME = %s AND PASSWORD = %s'''
             mycursor.execute(query,value)
             result = mycursor.fetchall()
             if result:
-                delete_value = (name,password,)
-                delete_query = "DELETE FROM customers WHERE NAME=%s AND PASSWORD = %s"
+                delete_value = (id,name,password,)
+                delete_query = "DELETE FROM customers WHERE ID = %s AND NAME=%s AND PASSWORD = %s"
                 mycursor.execute(delete_query,delete_value)
                 conn.commit()
                 mycursor.execute("DROP TABLE IF EXISTS {}".format(name))
                 conn.commit()
-                return jsonify("record deleted")
+                return jsonify("record deleted"),204
             else:
-                return  jsonify("record not found")
+                return  jsonify("record not found"),404
         else:
             return jsonify("enter all details")

@@ -8,49 +8,67 @@ class Test:
 
     tester = myapp.test_client()
     data = {"id":12,
-        "name":"sam",
+        "name":"sam".capitalize(),
         "password":"pass",
         "age":22,
-        "gender":"m"}
+        "gender":"m".capitalize()}
+
     category_data = {"admin":"vishwa3908",
         "password":"pass1234",
         "category":"Tester"}
+
     sub_data = {
-            "category":category_data["category"],
-            "sub-category":"mytest",
+            "category":category_data["category"].capitalize(),
+            "sub-category":"mytest".capitalize(),
             "price":200
         }
+
     add_cart_data = {
-        "name":data["name"],
+        "name":data["name"].capitalize(),
         "password":data["password"],
-        "item-type":category_data["category"],
-        "item":sub_data["sub-category"]
+        "item-type":category_data["category"].capitalize(),
+        "item":sub_data["sub-category"].capitalize()
     }
 
     #------testing home page--------------
+
     def test_1_home(self):
         response = self.tester.get("/")
         assert response.status_code==200
         response_data = response.json
         assert response_data== "WELCOME TO SHOPPING BUDDY"
+        assert response.content_type=="application/json"
+
+    # wrong http request for home
+
+    def test_1_1_home(self):
+        response = self.tester.post("/")
+        assert response.status_code==405
+    
 
 #-------------------testing rall customers records-----------------
 
     def test_2_get_all_customer(self):
         response = self.tester.get("/records")
         assert response.status_code==200
-        
+        assert response.content_type=="application/json"
+
+    def test_2_1_get_all_customer(self):
+        response = self.tester.post("/records")
+        assert response.status_code==500
+    
 #----------testing new customers--------------
 
     def test_3_new_customer(self):
         
         response = self.tester.post("/login/new",json=self.data)
-        assert response.status_code==200
+        assert response.status_code==201
         response_data = response.json
         assert response_data["id"]==self.data["id"]
         assert response_data["name"]==self.data["name"].capitalize()
         assert response_data["age"]==self.data["age"]
         assert response_data["gender"]==self.data["gender"].capitalize()
+        assert response.content_type=="application/json"
 
         #------- negative testing--------------------
         # ---If id is over limit-------
@@ -66,6 +84,8 @@ class Test:
         assert response.status_code==200
         response_data = response.json
         assert response_data=="enter id between 1 and 99999"
+        assert response.content_type=="application/json"
+
 # --------if data is not inserted----------
     def test_3_2_wrong_new_customer(self):
         response = self.tester.post("/login/new")
@@ -80,13 +100,14 @@ class Test:
             "name":self.data["name"],
             "password":self.data["password"]
         }
-        response = self.tester.post("/login",json = login_data)
+        response = self.tester.get("/login",json = login_data)
         assert response.status_code ==200
         response_data = response.json
         assert response_data["Id"]==self.data["id"]
         assert response_data["Name"]==self.data["name"].capitalize()
         assert response_data["Age"]==self.data["age"]
         assert response_data["Gender"]==self.data["gender"].capitalize()
+        assert response.content_type=="application/json"
 
 #------negative checking of old login--------------
     # negative test
@@ -96,10 +117,11 @@ class Test:
             "name":self.data["name"],
             "password":"ppp"
         }
-        response = self.tester.post("/login",json = data)
-        assert response.status_code==200
+        response = self.tester.get("/login",json = data)
+        assert response.status_code==404
         response_data = response.json
         assert response_data== "No record found"
+        assert response.content_type=="application/json"
 
     def test_4_2_wrong_old_customer_login(self):
         data = {
@@ -107,10 +129,11 @@ class Test:
             "name":"ddd",
             "password":self.data["password"]
         }
-        response = self.tester.post("/login",json = data)
-        assert response.status_code==200
+        response = self.tester.get("/login",json = data)
+        assert response.status_code==404
         response_data = response.json
         assert response_data== "No record found"
+        assert response.content_type=="application/json"
 
     def test_4_3_wrong_old_customer_login(self):
         data = {
@@ -118,13 +141,14 @@ class Test:
             "name":self.data["name"],
             "password":1222
         }
-        response = self.tester.post("/login",json = data)
-        assert response.status_code==200
+        response = self.tester.get("/login",json = data)
+        assert response.status_code==404
         response_data = response.json
         assert response_data== "No record found"
+        assert response.content_type=="application/json"
     
     def test_4_4_wrong_old_customer_login(self):
-        response = self.tester.post("/login")
+        response = self.tester.get("/login")
         assert response.status_code==500
     
 
@@ -132,7 +156,10 @@ class Test:
         
     def test_5_create_new_category(self):
         response = self.tester.post("/categories/add",json=self.category_data)
-        assert response.status_code==200
+        assert response.status_code==201
+        assert response.content_type=="application/json"
+        response_data = response.json
+        assert response_data==self.category_data["category"]+" "+"Category added"
 
 #=========showing category check================
 
@@ -146,7 +173,10 @@ class Test:
     def test_7_add_subcategory(self):
         
         response = self.tester.post("/categories/add/subcategory",json=self.sub_data)
-        assert response.status_code==200
+        assert response.status_code==201
+        assert response.content_type=="application/json"
+        response_data= response.json
+        assert response_data== self.sub_data["sub-category"]+" "+"subcategory created"
 
 #     showing sub category================
 
@@ -162,7 +192,7 @@ class Test:
 
     def test_9_add_cart(self):
         response = self.tester.post("/records",json=self.add_cart_data)
-        assert response.status_code==200
+        assert response.status_code==201
 
 # --------------showing customer cart----------------
 
@@ -182,7 +212,7 @@ class Test:
         delete_data = self.add_cart_data
 
         response = self.tester.delete("/records",json=delete_data)
-        assert response.status_code==200
+        assert response.status_code==204
 
     def test_12_delete_subcategory(self):
         del_sub_data = {
@@ -190,18 +220,19 @@ class Test:
             "sub-category":self.sub_data["sub-category"]
         }
         response = self.tester.delete("/categories/delete/subcategory",json = del_sub_data)
-        assert response.status_code==200
+        assert response.status_code==204
 
     def test_13_delete_category(self):
         del_cat_data = self.category_data
         response = self.tester.delete("/categories/delete",json=del_cat_data)
-        assert response.status_code==200
+        assert response.status_code==204
 
 
     def test_14_delete_customer_account(self):
         data = {
+            "id":self.data["id"],
             "name":self.data["name"],
             "password":self.data["password"]
         }
         response = self.tester.delete("/login/delete",json=data)
-        assert response.status_code==200
+        assert response.status_code==204

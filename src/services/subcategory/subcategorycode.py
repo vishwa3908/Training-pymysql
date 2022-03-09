@@ -18,9 +18,9 @@ class Subcategory:
                     'Price':"Rs"+" " + str(result[i][2])}
                     sub_category.append(data)
                 result_data = sub_category
-                return jsonify(result_data)
+                return jsonify(result_data),200
             else:
-                return "Empty"
+                return jsonify("Empty")
 
 
     def add_subcategory():
@@ -37,9 +37,9 @@ class Subcategory:
             price  = request.json["price"]
             mycursor.execute('''INSERT INTO {}(ITEMS,PRICE)VALUES(%s,%s)'''.format(category_name),(sub_category_name,price))
             conn.commit()
-            return "{} subcategory created".format(sub_category_name)
+            return jsonify("{} subcategory created".format(sub_category_name)),201
         else:
-            return "No category Found"
+            return jsonify("No category Found"),404
 
     def delete_this_subcategory():
         conn = connect_mysql()
@@ -55,7 +55,7 @@ class Subcategory:
             delete_subcategory_query = '''DELETE FROM {} WHERE ITEMS = %s'''.format(category)
             mycursor.execute(delete_subcategory_query,delete_subcategory_value)
             conn.commit()
-            return "{} sub-category deleted".format(sub_category)
+            return jsonify("{} sub-category deleted".format(sub_category)),204
         else:
-            return "Not Found"
+            return jsonify("Not Found"),404
         
